@@ -1,19 +1,33 @@
 """
 QC Tool - Data Extractor
-Extracts text and detects images from PDF pages using a saved template.
+Extracts text, detects images, and decodes barcodes/QR codes from PDF pages using a saved template.
 Outputs structured JSON with per-page, per-field results.
 """
 
 import fitz  # PyMuPDF
 from PIL import Image
 import pytesseract
-import cv2
-import numpy as np
 import io
 import json
 import argparse
 import os
 from datetime import datetime
+import cv2
+import numpy as np
+
+# Barcode/QR code libraries
+try:
+    from pyzbar import pyzbar
+    PYZBAR_AVAILABLE = True
+except ImportError:
+    PYZBAR_AVAILABLE = False
+    print("Warning: pyzbar not installed. Barcode/QR detection will be limited.")
+
+try:
+    from qreader import QReader
+    QREADER_AVAILABLE = True
+except ImportError:
+    QREADER_AVAILABLE = False
 
 
 def load_template(template_path):
@@ -29,136 +43,24 @@ def extract_text_from_rect(page, rect):
     return text
 
 
-def preprocess_image_for_ocr(image):
-    """
-    Apply advanced preprocessing to improve OCR accuracy.
-    Handles colored text, fancy fonts, and noise.
-    """
-    # Convert to OpenCV format
-    img_array = np.array(image)
-    
-    # Check if image is loaded properly
-    if img_array.size == 0:
-        return image
-
-    # Convert to grayscale
-    if len(img_array.shape) == 3:
-        gray = cv2.cvtColor(img_array, cv2.COLOR_RGB2GRAY)
-    else:
-        gray = img_array
-
-    # Adaptive Thresholding (handling varying lighting/shadows/colors)
-    # This works well for text on colored backgrounds
-    processed = cv2.adaptiveThreshold(
-        gray, 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C, cv2.THRESH_BINARY, 11, 2
-    )
-
-    # Denoising (optional, might remove dots in text)
-    processed = cv2.fastNlMeansDenoising(processed, None, 10, 7, 21)
-
-    return Image.fromarray(processed)
-
-
 def extract_text_via_ocr(page, rect):
     """Extract text from a rectangular region using OCR (Tesseract)."""
     # Get pixmap of the region
     clip = fitz.Rect(rect)
-    # High resolution for better OCR (increase zoom factor)
-    pix = page.get_pixmap(matrix=fitz.Matrix(3, 3), clip=clip)
+    # High resolution for better OCR
+    pix = page.get_pixmap(matrix=fitz.Matrix(2, 2), clip=clip)
     
     # Convert to PIL Image
     img_data = pix.tobytes("png")
     image = Image.open(io.BytesIO(img_data))
     
-    # Advanced Preprocessing
+    # Run OCR
     try:
-        image = preprocess_image_for_ocr(image)
-    except Exception as e:
-        print(f"Warning: Preprocessing failed: {e}")
-        image = image.convert("L")  # Fallback to simple grayscale
-    
-    # Run OCR with custom configuration
-    # --psm 6 assumes a single uniform block of text
-    try:
-        custom_config = r'--oem 3 --psm 6'
         # pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
-        text = pytesseract.image_to_string(image, config=custom_config).strip()
+        text = pytesseract.image_to_string(image).strip()
         return text
     except Exception as e:
         return f"[OCR Failed: {str(e)}]"
-
-
-def scan_barcode_qr(page, rect):
-    """Scan for Barcodes or QR codes in the region using multiple preprocessing passes."""
-    clip = fitz.Rect(rect)
-    results = []
-    
-    # We will try multiple zoom levels: 3x (Standard), 5x (High-Res for small codes)
-    for zoom in [3, 5]:
-        pix = page.get_pixmap(matrix=fitz.Matrix(zoom, zoom), clip=clip)
-        img_data = pix.tobytes("png")
-        image = Image.open(io.BytesIO(img_data))
-        img_array = np.array(image.convert("RGB"))
-        
-        # OpenCV uses BGR
-        bgr_img = cv2.cvtColor(img_array, cv2.COLOR_RGB2BGR)
-        gray = cv2.cvtColor(bgr_img, cv2.COLOR_BGR2GRAY)
-        
-        # CLAHE (Contrast Enhancement) - helps with colorful/busy backgrounds
-        clahe = cv2.createCLAHE(clipLimit=3.0, tileGridSize=(8, 8))
-        gray_clahe = clahe.apply(gray)
-        
-        # Preprocessing versions to try
-        processing_variants = [
-            ("original", bgr_img),
-            ("grayscale", gray),
-            ("clahe", gray_clahe),
-            ("threshold", cv2.threshold(gray, 128, 255, cv2.THRESH_BINARY)[1]),
-            ("adaptive", cv2.adaptiveThreshold(gray, 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C, cv2.THRESH_BINARY, 11, 2)),
-            ("inverted", cv2.bitwise_not(gray)),
-            ("inverted_threshold", cv2.threshold(cv2.bitwise_not(gray), 128, 255, cv2.THRESH_BINARY)[1])
-        ]
-        
-        qr_detector = cv2.QRCodeDetector()
-        barcode_detector = None
-        try:
-            barcode_detector = cv2.barcode.BarcodeDetector()
-        except:
-            pass
-
-        for name, img in processing_variants:
-            # 1. Try QR detection
-            try:
-                # Returns (decoded_info, points, straight_qrcode) in most modern OpenCV
-                res_qr = qr_detector.detectAndDecode(img)
-                if res_qr and isinstance(res_qr, tuple) and res_qr[0]:
-                    results.append(f"[QR] {res_qr[0]}")
-            except Exception:
-                pass
-                
-            # 2. Try Barcode detection
-            if barcode_detector:
-                try:
-                    # Returns (decoded_info, decoded_type, points)
-                    res_bc = barcode_detector.detectAndDecode(img)
-                    if res_bc and isinstance(res_bc, tuple) and res_bc[0]:
-                        info_list = res_bc[0]
-                        type_list = res_bc[1]
-                        # Handle both single results and multi-results
-                        if isinstance(info_list, str):
-                            if info_list:
-                                results.append(f"[{type_list}] {info_list}")
-                        else:
-                            for info, btype in zip(info_list, type_list):
-                                if info:
-                                    results.append(f"[{btype}] {info}")
-                except Exception:
-                    pass
-            
-            if results: break # Found something at this zoom/processing level
-        if results: break
-        
-    return list(set(results))  # Unique results
 
 
 def check_images_in_rect(page, rect):
@@ -177,6 +79,140 @@ def check_images_in_rect(page, rect):
                 image_count += 1
 
     return image_count > 0, image_count
+
+
+def decode_barcodes_and_qr(page, rect):
+    """
+    Decode barcodes and QR codes from a rectangular region on a PDF page.
+    
+    Returns:
+        dict: Contains decoded data, type, and success status
+    """
+    clip = fitz.Rect(rect)
+    # High resolution for better detection
+    pix = page.get_pixmap(matrix=fitz.Matrix(3, 3), clip=clip)
+    
+    # Convert to numpy array for OpenCV
+    img_data = pix.tobytes("png")
+    image = Image.open(io.BytesIO(img_data))
+    img_array = np.array(image)
+    
+    results = {
+        "decoded": False,
+        "codes": [],
+        "method": None,
+        "error": None
+    }
+    
+    # Method 1: Try pyzbar (works for most barcodes and QR codes)
+    if PYZBAR_AVAILABLE:
+        try:
+            decoded_objects = pyzbar.decode(img_array)
+            if decoded_objects:
+                results["decoded"] = True
+                results["method"] = "pyzbar"
+                for obj in decoded_objects:
+                    code_data = {
+                        "type": obj.type,
+                        "data": obj.data.decode('utf-8'),
+                        "quality": "good",
+                        "rect": {
+                            "x": obj.rect.left,
+                            "y": obj.rect.top,
+                            "width": obj.rect.width,
+                            "height": obj.rect.height
+                        }
+                    }
+                    results["codes"].append(code_data)
+                return results
+        except Exception as e:
+            results["error"] = f"pyzbar error: {str(e)}"
+    
+    # Method 2: Try OpenCV QR code detector (backup for QR codes)
+    if not results["decoded"]:
+        try:
+            # Convert to grayscale
+            gray = cv2.cvtColor(img_array, cv2.COLOR_RGB2GRAY)
+            
+            # Try QR code detection with OpenCV
+            qr_detector = cv2.QRCodeDetector()
+            data, bbox, _ = qr_detector.detectAndDecode(gray)
+            
+            if data:
+                results["decoded"] = True
+                results["method"] = "opencv_qr"
+                results["codes"].append({
+                    "type": "QRCODE",
+                    "data": data,
+                    "quality": "opencv"
+                })
+                return results
+        except Exception as e:
+            if results["error"]:
+                results["error"] += f"; opencv error: {str(e)}"
+            else:
+                results["error"] = f"opencv error: {str(e)}"
+    
+    # Method 3: Try QReader for QR codes (if available)
+    if not results["decoded"] and QREADER_AVAILABLE:
+        try:
+            qreader = QReader()
+            decoded_text = qreader.detect_and_decode(image=img_array)
+            if decoded_text and decoded_text[0]:
+                results["decoded"] = True
+                results["method"] = "qreader"
+                for text in decoded_text:
+                    if text:
+                        results["codes"].append({
+                            "type": "QRCODE",
+                            "data": text,
+                            "quality": "qreader"
+                        })
+                return results
+        except Exception as e:
+            if results["error"]:
+                results["error"] += f"; qreader error: {str(e)}"
+            else:
+                results["error"] = f"qreader error: {str(e)}"
+    
+    # Method 4: Try preprocessing and retry with pyzbar
+    if not results["decoded"] and PYZBAR_AVAILABLE:
+        try:
+            # Convert to grayscale
+            gray = cv2.cvtColor(img_array, cv2.COLOR_RGB2GRAY)
+            
+            # Apply preprocessing
+            # 1. Gaussian blur to reduce noise
+            blurred = cv2.GaussianBlur(gray, (5, 5), 0)
+            
+            # 2. Adaptive thresholding
+            thresh = cv2.adaptiveThreshold(
+                blurred, 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C, 
+                cv2.THRESH_BINARY, 11, 2
+            )
+            
+            # Try decoding preprocessed image
+            decoded_objects = pyzbar.decode(thresh)
+            if decoded_objects:
+                results["decoded"] = True
+                results["method"] = "pyzbar_preprocessed"
+                for obj in decoded_objects:
+                    results["codes"].append({
+                        "type": obj.type,
+                        "data": obj.data.decode('utf-8'),
+                        "quality": "preprocessed"
+                    })
+                return results
+        except Exception as e:
+            if results["error"]:
+                results["error"] += f"; preprocessing error: {str(e)}"
+            else:
+                results["error"] = f"preprocessing error: {str(e)}"
+    
+    if not results["decoded"]:
+        results["error"] = results["error"] or "No barcode or QR code detected in region"
+    
+    return results
 
 
 def extract_data_from_pdf(pdf_path, template, pages=None):
@@ -251,19 +287,34 @@ def extract_data_from_pdf(pdf_path, template, pages=None):
                     "coordinates": {"x0": round(x0, 2), "y0": round(y0, 2),
                                     "x1": round(x1, 2), "y1": round(y1, 2)}
                 }
-            elif "barcode" in field_name.lower() or "qr" in field_name.lower():
-                # Automatic Barcode/QR scanning
-                codes = scan_barcode_qr(page, rect)
-                value = ", ".join(codes) if codes else "No code found"
-                result_data = {
-                    "value": value,
-                    "confidence": "scanned" if codes else "empty",
-                    "type": "barcode_qr",
-                    "method": "pyzbar",
-                    "codes": codes,
-                    "coordinates": {"x0": round(x0, 2), "y0": round(y0, 2),
-                                    "x1": round(x1, 2), "y1": round(y1, 2)}
-                }
+            elif field_type == "barcode":
+                # Barcode/QR code detection
+                decode_result = decode_barcodes_and_qr(page, rect)
+                
+                if decode_result["decoded"]:
+                    # Format the decoded data
+                    codes_summary = []
+                    for code in decode_result["codes"]:
+                        codes_summary.append(f"{code['type']}: {code['data']}")
+                    
+                    result_data = {
+                        "value": " | ".join(codes_summary) if codes_summary else "No code detected",
+                        "decoded": decode_result["decoded"],
+                        "codes": decode_result["codes"],
+                        "method": decode_result["method"],
+                        "type": "barcode",
+                        "coordinates": {"x0": round(x0, 2), "y0": round(y0, 2),
+                                        "x1": round(x1, 2), "y1": round(y1, 2)}
+                    }
+                else:
+                    result_data = {
+                        "value": "No code detected",
+                        "decoded": False,
+                        "error": decode_result.get("error", "Unknown error"),
+                        "type": "barcode",
+                        "coordinates": {"x0": round(x0, 2), "y0": round(y0, 2),
+                                        "x1": round(x1, 2), "y1": round(y1, 2)}
+                    }
             else:
                 # Text extraction (Digital or OCR)
                 if ocr_mode:
@@ -319,10 +370,22 @@ def print_summary(results):
                     icon = "🖼"
                     status = "✅" if field_data["has_images"] else "❌"
                     print(f"  {icon} {field_name}{suffix}: {status} {value}")
-                elif ftype == "barcode_qr":
-                    icon = "📷"
-                    status = "✅" if field_data["codes"] else "❌"
-                    print(f"  {icon} {field_name}{suffix}: {status} {value}")
+                elif ftype == "barcode":
+                    icon = "📊"
+                    if field_data.get("decoded", False):
+                        status = "✅ DECODED"
+                        print(f"  {icon} {field_name}{suffix}: {status}")
+                        print(f"       → {value}")
+                        print(f"       → Method: {field_data.get('method', 'unknown')}")
+                        # Show individual codes if multiple
+                        if "codes" in field_data and len(field_data["codes"]) > 1:
+                            for code in field_data["codes"]:
+                                print(f"          • {code['type']}: {code['data']}")
+                    else:
+                        status = "❌ NOT DETECTED"
+                        print(f"  {icon} {field_name}{suffix}: {status}")
+                        if "error" in field_data:
+                            print(f"       → Error: {field_data['error']}")
                 else:
                     icon = "📝"
                     method = field_data.get("method", "digital")
@@ -341,7 +404,7 @@ def print_summary(results):
 
 def main():
     parser = argparse.ArgumentParser(
-        description="QC Tool - Extract text data from PDF using a template"
+        description="QC Tool - Extract text data and decode barcodes/QR codes from PDF using a template"
     )
     parser.add_argument(
         "--template", "-t",
@@ -371,6 +434,13 @@ def main():
     )
     
     args = parser.parse_args()
+    
+    # Check library availability
+    if not PYZBAR_AVAILABLE:
+        print("\n⚠️  Warning: pyzbar library not found!")
+        print("   Barcode/QR detection will be limited or may not work.")
+        print("   Install with: pip install pyzbar")
+        print("   (Note: You may also need to install zbar system library)\n")
     
     # Validate inputs
     if not os.path.exists(args.template):

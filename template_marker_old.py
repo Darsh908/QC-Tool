@@ -14,8 +14,8 @@ import os
 # ─── Preset Field Names ───────────────────────────────────────────────────────
 PRESET_FIELDS = [
     "Product Name",
-    "Net Quantity",
-    "XyFil Number",
+    "Volume",
+    "Batch Number",
     "Ingredients",
     "Danger Text",
     "Manufacturer Name",
@@ -23,20 +23,19 @@ PRESET_FIELDS = [
     "Danger Images",
     "UFI",
     "ECID",
-    "Warning Text",
-    "Concentration (mg/ml)",
+    "Warning Text1",
+    "Warning Text2",
+    "mg/ml",
     "Barcode Number",
     "QR Code",
-    "Tagline",
-    "Brand Message",
     "Extra Text",
 ]
 
 # ─── Color palette for field boxes ─────────────────────────────────────────────
 FIELD_COLORS = {
     "Product Name": "#FF6B6B",
-    "Net Quantity": "#4ECDC4",
-    "XyFil Number": "#45B7D1",
+    "Volume": "#4ECDC4",
+    "Batch Number": "#45B7D1",
     "Ingredients": "#96CEB4",
     "Danger Text": "#FF4757",
     "Manufacturer Name": "#A55EEA",
@@ -44,12 +43,11 @@ FIELD_COLORS = {
     "Danger Images": "#FD9644",
     "UFI": "#26DE81",
     "ECID": "#2BCBBA",
-    "Warning Text": "#F7B731",
-    "Concentration (mg/ml)": "#20BF6B",
+    "Warning Text1": "#F7B731",
+    "Warning Text2": "#FC5C65",
+    "mg/ml": "#20BF6B",
     "Barcode Number": "#4B7BEC",
     "QR Code": "#5F27CD",
-    "Tagline": "#FF9FF3",
-    "Brand Message": "#54A0FF",
     "Extra Text": "#778CA3",
 }
 DEFAULT_COLOR = "#778CA3"

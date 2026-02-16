@@ -1,4 +1,6 @@
 PyMuPDF>=1.24.0
 Pillow>=10.0.0
 pytesseract>=0.3.10
+pyzbar>=0.1.9
 opencv-python>=4.8.0
+numpy>=1.24.0

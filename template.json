@@ -15,7 +15,7 @@
       "ocr": false
     },
     {
-      "name": "mg/ml",
+      "name": "Concentration (mg/ml)",
       "page": 0,
       "x0": 245.26,
       "y0": 136.42,
@@ -135,7 +135,7 @@
       "ocr": false
     },
     {
-      "name": "Volume",
+      "name": "Net Quantity",
       "page": 0,
       "x0": 169.4,
       "y0": 458.0,
@@ -155,7 +155,7 @@
       "ocr": false
     },
     {
-      "name": "mg/ml",
+      "name": "Concentration (mg/ml)",
       "page": 0,
       "x0": 240.4,
       "y0": 368.4,
@@ -165,7 +165,7 @@
       "ocr": false
     },
     {
-      "name": "Volume",
+      "name": "Net Quantity",
       "page": 0,
       "x0": 280.6,
       "y0": 368.4,

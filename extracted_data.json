@@ -1,7 +1,7 @@
 {
   "source_pdf": "data.pdf",
   "template_used": "input.pdf",
-  "extraction_date": "2026-02-13T18:37:54.262361",
+  "extraction_date": "2026-02-16T10:38:34.861621",
   "total_pages": 10,
   "pages": [
     {
@@ -18,10 +18,10 @@
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 245.6,
-              "y0": 118.0,
-              "x1": 304.8,
-              "y1": 134.0
+              "x0": 245.26,
+              "y0": 114.95,
+              "x1": 304.42,
+              "y1": 134.95
             }
           },
           {
@@ -30,38 +30,24 @@
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 241.6,
-              "y0": 336.8,
-              "x1": 302.0,
-              "y1": 361.2
+              "x0": 240.8,
+              "y0": 335.4,
+              "x1": 302.6,
+              "y1": 363.8
             }
           }
         ],
-        "Batch Number": [
-          {
-            "value": "28868-4",
-            "confidence": "extracted",
-            "type": "text",
-            "method": "digital",
-            "coordinates": {
-              "x0": 326.0,
-              "y0": 121.6,
-              "x1": 368.0,
-              "y1": 130.4
-            }
-          }
-        ],
-        "mg/ml": [
+        "Concentration (mg/ml)": [
           {
             "value": "20mg/ml",
             "confidence": "extracted",
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 247.6,
-              "y0": 136.4,
-              "x1": 302.8,
-              "y1": 145.2
+              "x0": 245.26,
+              "y0": 136.42,
+              "x1": 304.63,
+              "y1": 146.53
             }
           },
           {
@@ -70,10 +56,24 @@
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 242.4,
-              "y0": 370.0,
-              "x1": 278.0,
-              "y1": 382.4
+              "x0": 240.4,
+              "y0": 368.4,
+              "x1": 278.6,
+              "y1": 381.6
+            }
+          }
+        ],
+        "XyFil Number": [
+          {
+            "value": "28868-4",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 315.37,
+              "y0": 120.42,
+              "x1": 365.68,
+              "y1": 132.42
             }
           }
         ],
@@ -84,10 +84,10 @@
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 121.56,
-              "y0": 170.89,
-              "x1": 160.89,
-              "y1": 174.44
+              "x0": 121.2,
+              "y0": 170.2,
+              "x1": 144.2,
+              "y1": 175.0
             }
           }
         ],
@@ -98,10 +98,10 @@
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 121.33,
-              "y0": 175.33,
-              "x1": 163.56,
-              "y1": 190.89
+              "x0": 121.8,
+              "y0": 175.2,
+              "x1": 164.4,
+              "y1": 190.0
             }
           }
         ],
@@ -112,10 +112,10 @@
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 96.44,
-              "y0": 194.44,
-              "x1": 164.67,
-              "y1": 226.89
+              "x0": 97.8,
+              "y0": 194.6,
+              "x1": 164.4,
+              "y1": 230.2
             }
           }
         ],
@@ -126,10 +126,10 @@
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 96.89,
-              "y0": 229.33,
-              "x1": 163.78,
-              "y1": 306.0
+              "x0": 98.8,
+              "y0": 230.8,
+              "x1": 163.4,
+              "y1": 314.0
             }
           }
         ],
@@ -140,10 +140,10 @@
             "image_count": 1,
             "type": "image",
             "coordinates": {
-              "x0": 95.78,
-              "y0": 312.89,
-              "x1": 164.44,
-              "y1": 382.22
+              "x0": 98.2,
+              "y0": 314.8,
+              "x1": 165.2,
+              "y1": 382.4
             }
           }
         ],
@@ -154,10 +154,10 @@
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 98.44,
-              "y0": 386.22,
-              "x1": 155.33,
-              "y1": 391.33
+              "x0": 96.2,
+              "y0": 384.4,
+              "x1": 165.2,
+              "y1": 391.2
             }
           }
         ],
@@ -168,134 +168,144 @@
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 98.0,
-              "y0": 391.56,
-              "x1": 156.44,
-              "y1": 397.33
+              "x0": 96.2,
+              "y0": 392.0,
+              "x1": 165.2,
+              "y1": 397.4
             }
           }
         ],
-        "Warning Text1": [
+        "Warning Text": [
           {
             "value": "This \nproduct \ncontains \nnicotine \nwhich is a \nhighly \naddictive \nsubstance.",
             "confidence": "extracted",
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 97.78,
-              "y0": 402.44,
-              "x1": 161.56,
-              "y1": 511.78
+              "x0": 97.0,
+              "y0": 401.4,
+              "x1": 164.4,
+              "y1": 512.2
             }
-          }
-        ],
-        "Warning Text2": [
+          },
           {
             "value": "This \nproduct \ncontains \nnicotine \nwhich is a \nhighly \naddictive \nsubstance.",
             "confidence": "extracted",
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 241.56,
-              "y0": 402.44,
-              "x1": 308.44,
-              "y1": 512.22
-            }
-          }
-        ],
-        "Volume": [
-          {
-            "value": "10ml",
-            "confidence": "extracted",
-            "type": "text",
-            "method": "digital",
-            "coordinates": {
-              "x0": 280.36,
-              "y0": 369.09,
-              "x1": 298.91,
-              "y1": 381.82
-            }
-          },
-          {
-            "value": "10ml",
-            "confidence": "extracted",
-            "type": "text",
-            "method": "digital",
-            "coordinates": {
-              "x0": 172.8,
-              "y0": 457.6,
-              "x1": 234.4,
-              "y1": 474.0
-            }
-          }
-        ],
-        "Extra Text": [
-          {
-            "value": "",
-            "confidence": "empty",
-            "type": "text",
-            "method": "ocr",
-            "coordinates": {
-              "x0": 315.2,
-              "y0": 456.0,
-              "x1": 378.0,
-              "y1": 513.6
-            }
-          },
-          {
-            "value": "POD",
-            "confidence": "extracted",
-            "type": "text",
-            "method": "ocr",
-            "coordinates": {
-              "x0": 317.2,
-              "y0": 163.6,
-              "x1": 375.2,
-              "y1": 230.0
-            }
-          },
-          {
-            "value": "PXO)D)\n» Sx",
-            "confidence": "extracted",
-            "type": "text",
-            "method": "ocr",
-            "coordinates": {
-              "x0": 245.6,
-              "y0": 164.8,
-              "x1": 304.4,
-              "y1": 218.4
+              "x0": 241.6,
+              "y0": 402.0,
+              "x1": 308.0,
+              "y1": 513.0
             }
           }
         ],
         "Barcode Number": [
           {
-            "value": "[[[[ 13.803299  45.014523]\n  [ 13.796692   9.014521]\n  [172.1967     8.985477]\n  [172.20331   44.98548 ]]]] 5056598192370",
-            "confidence": "scanned",
-            "type": "barcode_qr",
-            "method": "pyzbar",
+            "value": "EAN13: 5056598192370",
+            "decoded": true,
             "codes": [
-              "[[[[ 13.803299  45.014523]\n  [ 13.796692   9.014521]\n  [172.1967     8.985477]\n  [172.20331   44.98548 ]]]] 5056598192370"
+              {
+                "type": "EAN13",
+                "data": "5056598192370",
+                "quality": "good",
+                "rect": {
+                  "x": 85,
+                  "y": 4,
+                  "width": 68,
+                  "height": 44
+                }
+              }
             ],
+            "method": "pyzbar",
+            "type": "barcode",
             "coordinates": {
-              "x0": 100.33,
-              "y0": 524.67,
-              "x1": 156.67,
+              "x0": 102.0,
+              "y0": 524.4,
+              "x1": 157.0,
               "y1": 548.0
+            }
+          }
+        ],
+        "Net Quantity": [
+          {
+            "value": "10ml",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 169.4,
+              "y0": 458.0,
+              "x1": 236.0,
+              "y1": 474.4
+            }
+          },
+          {
+            "value": "10ml",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 280.6,
+              "y0": 368.4,
+              "x1": 303.4,
+              "y1": 382.0
             }
           }
         ],
         "QR Code": [
           {
-            "value": "No code found",
-            "confidence": "empty",
-            "type": "barcode_qr",
+            "value": "QRCODE: https://qrco.de/bd7ixp",
+            "decoded": true,
+            "codes": [
+              {
+                "type": "QRCODE",
+                "data": "https://qrco.de/bd7ixp",
+                "quality": "good",
+                "rect": {
+                  "x": 22,
+                  "y": 13,
+                  "width": 112,
+                  "height": 112
+                }
+              }
+            ],
             "method": "pyzbar",
-            "codes": [],
+            "type": "barcode",
             "coordinates": {
-              "x0": 319.0,
-              "y0": 395.33,
-              "x1": 372.33,
-              "y1": 444.0
+              "x0": 319.6,
+              "y0": 397.0,
+              "x1": 371.4,
+              "y1": 442.4
+            }
+          }
+        ],
+        "Tagline": [
+          {
+            "value": "X\nMARKS\nTHE\nSPOT",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 312.8,
+              "y0": 237.6,
+              "x1": 378.0,
+              "y1": 327.6
+            }
+          }
+        ],
+        "Brand Message": [
+          {
+            "value": "JOIN THE\nPOD SALT\nFAMILY!",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 319.2,
+              "y0": 341.2,
+              "x1": 371.6,
+              "y1": 394.4
             }
           }
         ]
@@ -315,10 +325,10 @@
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 245.6,
-              "y0": 118.0,
-              "x1": 304.8,
-              "y1": 134.0
+              "x0": 245.26,
+              "y0": 114.95,
+              "x1": 304.42,
+              "y1": 134.95
             }
           },
           {
@@ -327,38 +337,24 @@
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 241.6,
-              "y0": 336.8,
-              "x1": 302.0,
-              "y1": 361.2
+              "x0": 240.8,
+              "y0": 335.4,
+              "x1": 302.6,
+              "y1": 363.8
             }
           }
         ],
-        "Batch Number": [
-          {
-            "value": "28859-4",
-            "confidence": "extracted",
-            "type": "text",
-            "method": "digital",
-            "coordinates": {
-              "x0": 326.0,
-              "y0": 121.6,
-              "x1": 368.0,
-              "y1": 130.4
-            }
-          }
-        ],
-        "mg/ml": [
+        "Concentration (mg/ml)": [
           {
             "value": "20mg/ml",
             "confidence": "extracted",
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 247.6,
-              "y0": 136.4,
-              "x1": 302.8,
-              "y1": 145.2
+              "x0": 245.26,
+              "y0": 136.42,
+              "x1": 304.63,
+              "y1": 146.53
             }
           },
           {
@@ -367,10 +363,24 @@
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 242.4,
-              "y0": 370.0,
-              "x1": 278.0,
-              "y1": 382.4
+              "x0": 240.4,
+              "y0": 368.4,
+              "x1": 278.6,
+              "y1": 381.6
+            }
+          }
+        ],
+        "XyFil Number": [
+          {
+            "value": "28859-4",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 315.37,
+              "y0": 120.42,
+              "x1": 365.68,
+              "y1": 132.42
             }
           }
         ],
@@ -381,10 +391,10 @@
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 121.56,
-              "y0": 170.89,
-              "x1": 160.89,
-              "y1": 174.44
+              "x0": 121.2,
+              "y0": 170.2,
+              "x1": 144.2,
+              "y1": 175.0
             }
           }
         ],
@@ -395,10 +405,10 @@
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 121.33,
-              "y0": 175.33,
-              "x1": 163.56,
-              "y1": 190.89
+              "x0": 121.8,
+              "y0": 175.2,
+              "x1": 164.4,
+              "y1": 190.0
             }
           }
         ],
@@ -409,24 +419,24 @@
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 96.44,
-              "y0": 194.44,
-              "x1": 164.67,
-              "y1": 226.89
+              "x0": 97.8,
+              "y0": 194.6,
+              "x1": 164.4,
+              "y1": 230.2
             }
           }
         ],
         "Danger Text": [
           {
-            "value": "Danger: Toxic if swallowed. \nFatal in contact with skin. \nHarmful if inhaled. Harmful to \naquatic life with long lasting \neﬀects. Keep out of reach of \nchildren. Do not get in eyes, on \nskin, or on clothing. Use only \noutdoors or in a well-ventilated \narea. Wear protective gloves. IF \nSWALLOWED: Immediately call a \ndoctor. Dispose of \ncontents/container to hazardous \nor special waste collection point, \nin accordance with local, \nregional, national and/or",
+            "value": "Danger: Toxic if swallowed. \nFatal in contact with skin. \nHarmful if inhaled. Harmful to \naquatic life with long lasting \neﬀects. Keep out of reach of \nchildren. Do not get in eyes, on \nskin, or on clothing. Use only \noutdoors or in a well-ventilated \narea. Wear protective gloves. IF \nSWALLOWED: Immediately call a \ndoctor. Dispose of \ncontents/container to hazardous \nor special waste collection point, \nin accordance with local, \nregional, national and/or \ninternational regulation.",
             "confidence": "extracted",
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 96.89,
-              "y0": 229.33,
-              "x1": 163.78,
-              "y1": 306.0
+              "x0": 98.8,
+              "y0": 230.8,
+              "x1": 163.4,
+              "y1": 314.0
             }
           }
         ],
@@ -437,10 +447,10 @@
             "image_count": 1,
             "type": "image",
             "coordinates": {
-              "x0": 95.78,
-              "y0": 312.89,
-              "x1": 164.44,
-              "y1": 382.22
+              "x0": 98.2,
+              "y0": 314.8,
+              "x1": 165.2,
+              "y1": 382.4
             }
           }
         ],
@@ -451,10 +461,10 @@
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 98.44,
-              "y0": 386.22,
-              "x1": 155.33,
-              "y1": 391.33
+              "x0": 96.2,
+              "y0": 384.4,
+              "x1": 165.2,
+              "y1": 391.2
             }
           }
         ],
@@ -465,134 +475,144 @@
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 98.0,
-              "y0": 391.56,
-              "x1": 156.44,
-              "y1": 397.33
+              "x0": 96.2,
+              "y0": 392.0,
+              "x1": 165.2,
+              "y1": 397.4
             }
           }
         ],
-        "Warning Text1": [
+        "Warning Text": [
           {
             "value": "This \nproduct \ncontains \nnicotine \nwhich is a \nhighly \naddictive \nsubstance.",
             "confidence": "extracted",
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 97.78,
-              "y0": 402.44,
-              "x1": 161.56,
-              "y1": 511.78
+              "x0": 97.0,
+              "y0": 401.4,
+              "x1": 164.4,
+              "y1": 512.2
             }
-          }
-        ],
-        "Warning Text2": [
+          },
           {
             "value": "This \nproduct \ncontains \nnicotine \nwhich is a \nhighly \naddictive \nsubstance.",
             "confidence": "extracted",
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 241.56,
-              "y0": 402.44,
-              "x1": 308.44,
-              "y1": 512.22
-            }
-          }
-        ],
-        "Volume": [
-          {
-            "value": "10ml",
-            "confidence": "extracted",
-            "type": "text",
-            "method": "digital",
-            "coordinates": {
-              "x0": 280.36,
-              "y0": 369.09,
-              "x1": 298.91,
-              "y1": 381.82
-            }
-          },
-          {
-            "value": "10ml",
-            "confidence": "extracted",
-            "type": "text",
-            "method": "digital",
-            "coordinates": {
-              "x0": 172.8,
-              "y0": 457.6,
-              "x1": 234.4,
-              "y1": 474.0
-            }
-          }
-        ],
-        "Extra Text": [
-          {
-            "value": "",
-            "confidence": "empty",
-            "type": "text",
-            "method": "ocr",
-            "coordinates": {
-              "x0": 315.2,
-              "y0": 456.0,
-              "x1": 378.0,
-              "y1": 513.6
-            }
-          },
-          {
-            "value": "POD",
-            "confidence": "extracted",
-            "type": "text",
-            "method": "ocr",
-            "coordinates": {
-              "x0": 317.2,
-              "y0": 163.6,
-              "x1": 375.2,
-              "y1": 230.0
-            }
-          },
-          {
-            "value": "ROD",
-            "confidence": "extracted",
-            "type": "text",
-            "method": "ocr",
-            "coordinates": {
-              "x0": 245.6,
-              "y0": 164.8,
-              "x1": 304.4,
-              "y1": 218.4
+              "x0": 241.6,
+              "y0": 402.0,
+              "x1": 308.0,
+              "y1": 513.0
             }
           }
         ],
         "Barcode Number": [
           {
-            "value": "[[[[ 13.803299  45.014523]\n  [ 13.796692   9.014521]\n  [172.1967     8.985477]\n  [172.20331   44.98548 ]]]] 5056168808885",
-            "confidence": "scanned",
-            "type": "barcode_qr",
-            "method": "pyzbar",
+            "value": "EAN13: 5056168808885",
+            "decoded": true,
             "codes": [
-              "[[[[ 13.803299  45.014523]\n  [ 13.796692   9.014521]\n  [172.1967     8.985477]\n  [172.20331   44.98548 ]]]] 5056168808885"
+              {
+                "type": "EAN13",
+                "data": "5056168808885",
+                "quality": "good",
+                "rect": {
+                  "x": 85,
+                  "y": 4,
+                  "width": 4,
+                  "height": 44
+                }
+              }
             ],
+            "method": "pyzbar",
+            "type": "barcode",
             "coordinates": {
-              "x0": 100.33,
-              "y0": 524.67,
-              "x1": 156.67,
+              "x0": 102.0,
+              "y0": 524.4,
+              "x1": 157.0,
               "y1": 548.0
+            }
+          }
+        ],
+        "Net Quantity": [
+          {
+            "value": "10ml",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 169.4,
+              "y0": 458.0,
+              "x1": 236.0,
+              "y1": 474.4
+            }
+          },
+          {
+            "value": "10ml",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 280.6,
+              "y0": 368.4,
+              "x1": 303.4,
+              "y1": 382.0
             }
           }
         ],
         "QR Code": [
           {
-            "value": "No code found",
-            "confidence": "empty",
-            "type": "barcode_qr",
+            "value": "QRCODE: https://qrco.de/bd7ixp",
+            "decoded": true,
+            "codes": [
+              {
+                "type": "QRCODE",
+                "data": "https://qrco.de/bd7ixp",
+                "quality": "good",
+                "rect": {
+                  "x": 22,
+                  "y": 13,
+                  "width": 112,
+                  "height": 112
+                }
+              }
+            ],
             "method": "pyzbar",
-            "codes": [],
+            "type": "barcode",
             "coordinates": {
-              "x0": 319.0,
-              "y0": 395.33,
-              "x1": 372.33,
-              "y1": 444.0
+              "x0": 319.6,
+              "y0": 397.0,
+              "x1": 371.4,
+              "y1": 442.4
+            }
+          }
+        ],
+        "Tagline": [
+          {
+            "value": "X\nMARKS\nTHE\nSPOT",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 312.8,
+              "y0": 237.6,
+              "x1": 378.0,
+              "y1": 327.6
+            }
+          }
+        ],
+        "Brand Message": [
+          {
+            "value": "JOIN THE\nPOD SALT\nFAMILY!",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 319.2,
+              "y0": 341.2,
+              "x1": 371.6,
+              "y1": 394.4
             }
           }
         ]
@@ -612,10 +632,10 @@
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 245.6,
-              "y0": 118.0,
-              "x1": 304.8,
-              "y1": 134.0
+              "x0": 245.26,
+              "y0": 114.95,
+              "x1": 304.42,
+              "y1": 134.95
             }
           },
           {
@@ -624,38 +644,24 @@
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 241.6,
-              "y0": 336.8,
-              "x1": 302.0,
-              "y1": 361.2
+              "x0": 240.8,
+              "y0": 335.4,
+              "x1": 302.6,
+              "y1": 363.8
             }
           }
         ],
-        "Batch Number": [
-          {
-            "value": "28877-4",
-            "confidence": "extracted",
-            "type": "text",
-            "method": "digital",
-            "coordinates": {
-              "x0": 326.0,
-              "y0": 121.6,
-              "x1": 368.0,
-              "y1": 130.4
-            }
-          }
-        ],
-        "mg/ml": [
+        "Concentration (mg/ml)": [
           {
             "value": "20mg/ml",
             "confidence": "extracted",
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 247.6,
-              "y0": 136.4,
-              "x1": 302.8,
-              "y1": 145.2
+              "x0": 245.26,
+              "y0": 136.42,
+              "x1": 304.63,
+              "y1": 146.53
             }
           },
           {
@@ -664,10 +670,24 @@
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 242.4,
-              "y0": 370.0,
-              "x1": 278.0,
-              "y1": 382.4
+              "x0": 240.4,
+              "y0": 368.4,
+              "x1": 278.6,
+              "y1": 381.6
+            }
+          }
+        ],
+        "XyFil Number": [
+          {
+            "value": "28877-4",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 315.37,
+              "y0": 120.42,
+              "x1": 365.68,
+              "y1": 132.42
             }
           }
         ],
@@ -678,10 +698,10 @@
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 121.56,
-              "y0": 170.89,
-              "x1": 160.89,
-              "y1": 174.44
+              "x0": 121.2,
+              "y0": 170.2,
+              "x1": 144.2,
+              "y1": 175.0
             }
           }
         ],
@@ -692,10 +712,10 @@
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 121.33,
-              "y0": 175.33,
-              "x1": 163.56,
-              "y1": 190.89
+              "x0": 121.8,
+              "y0": 175.2,
+              "x1": 164.4,
+              "y1": 190.0
             }
           }
         ],
@@ -706,10 +726,10 @@
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 96.44,
-              "y0": 194.44,
-              "x1": 164.67,
-              "y1": 226.89
+              "x0": 97.8,
+              "y0": 194.6,
+              "x1": 164.4,
+              "y1": 230.2
             }
           }
         ],
@@ -720,10 +740,10 @@
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 96.89,
-              "y0": 229.33,
-              "x1": 163.78,
-              "y1": 306.0
+              "x0": 98.8,
+              "y0": 230.8,
+              "x1": 163.4,
+              "y1": 314.0
             }
           }
         ],
@@ -734,10 +754,10 @@
             "image_count": 1,
             "type": "image",
             "coordinates": {
-              "x0": 95.78,
-              "y0": 312.89,
-              "x1": 164.44,
-              "y1": 382.22
+              "x0": 98.2,
+              "y0": 314.8,
+              "x1": 165.2,
+              "y1": 382.4
             }
           }
         ],
@@ -748,10 +768,10 @@
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 98.44,
-              "y0": 386.22,
-              "x1": 155.33,
-              "y1": 391.33
+              "x0": 96.2,
+              "y0": 384.4,
+              "x1": 165.2,
+              "y1": 391.2
             }
           }
         ],
@@ -762,134 +782,144 @@
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 98.0,
-              "y0": 391.56,
-              "x1": 156.44,
-              "y1": 397.33
+              "x0": 96.2,
+              "y0": 392.0,
+              "x1": 165.2,
+              "y1": 397.4
             }
           }
         ],
-        "Warning Text1": [
+        "Warning Text": [
           {
             "value": "This \nproduct \ncontains \nnicotine \nwhich is a \nhighly \naddictive \nsubstance.",
             "confidence": "extracted",
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 97.78,
-              "y0": 402.44,
-              "x1": 161.56,
-              "y1": 511.78
+              "x0": 97.0,
+              "y0": 401.4,
+              "x1": 164.4,
+              "y1": 512.2
             }
-          }
-        ],
-        "Warning Text2": [
+          },
           {
             "value": "This \nproduct \ncontains \nnicotine \nwhich is a \nhighly \naddictive \nsubstance.",
             "confidence": "extracted",
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 241.56,
-              "y0": 402.44,
-              "x1": 308.44,
-              "y1": 512.22
-            }
-          }
-        ],
-        "Volume": [
-          {
-            "value": "10ml",
-            "confidence": "extracted",
-            "type": "text",
-            "method": "digital",
-            "coordinates": {
-              "x0": 280.36,
-              "y0": 369.09,
-              "x1": 298.91,
-              "y1": 381.82
-            }
-          },
-          {
-            "value": "10ml",
-            "confidence": "extracted",
-            "type": "text",
-            "method": "digital",
-            "coordinates": {
-              "x0": 172.8,
-              "y0": 457.6,
-              "x1": 234.4,
-              "y1": 474.0
-            }
-          }
-        ],
-        "Extra Text": [
-          {
-            "value": "NEXUS\nNEXUS\nNEXUS",
-            "confidence": "extracted",
-            "type": "text",
-            "method": "ocr",
-            "coordinates": {
-              "x0": 315.2,
-              "y0": 456.0,
-              "x1": 378.0,
-              "y1": 513.6
-            }
-          },
-          {
-            "value": "2©))",
-            "confidence": "extracted",
-            "type": "text",
-            "method": "ocr",
-            "coordinates": {
-              "x0": 317.2,
-              "y0": 163.6,
-              "x1": 375.2,
-              "y1": 230.0
-            }
-          },
-          {
-            "value": "POD\nsh",
-            "confidence": "extracted",
-            "type": "text",
-            "method": "ocr",
-            "coordinates": {
-              "x0": 245.6,
-              "y0": 164.8,
-              "x1": 304.4,
-              "y1": 218.4
+              "x0": 241.6,
+              "y0": 402.0,
+              "x1": 308.0,
+              "y1": 513.0
             }
           }
         ],
         "Barcode Number": [
           {
-            "value": "[[[[ 13.803299  45.014523]\n  [ 13.796692   9.014521]\n  [172.1967     8.985477]\n  [172.20331   44.98548 ]]]] 5056598132420",
-            "confidence": "scanned",
-            "type": "barcode_qr",
-            "method": "pyzbar",
+            "value": "EAN13: 5056598132420",
+            "decoded": true,
             "codes": [
-              "[[[[ 13.803299  45.014523]\n  [ 13.796692   9.014521]\n  [172.1967     8.985477]\n  [172.20331   44.98548 ]]]] 5056598132420"
+              {
+                "type": "EAN13",
+                "data": "5056598132420",
+                "quality": "good",
+                "rect": {
+                  "x": 85,
+                  "y": 4,
+                  "width": 68,
+                  "height": 44
+                }
+              }
             ],
+            "method": "pyzbar",
+            "type": "barcode",
             "coordinates": {
-              "x0": 100.33,
-              "y0": 524.67,
-              "x1": 156.67,
+              "x0": 102.0,
+              "y0": 524.4,
+              "x1": 157.0,
               "y1": 548.0
+            }
+          }
+        ],
+        "Net Quantity": [
+          {
+            "value": "10ml",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 169.4,
+              "y0": 458.0,
+              "x1": 236.0,
+              "y1": 474.4
+            }
+          },
+          {
+            "value": "10ml",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 280.6,
+              "y0": 368.4,
+              "x1": 303.4,
+              "y1": 382.0
             }
           }
         ],
         "QR Code": [
           {
-            "value": "No code found",
-            "confidence": "empty",
-            "type": "barcode_qr",
+            "value": "QRCODE: https://qrco.de/bd7ixp",
+            "decoded": true,
+            "codes": [
+              {
+                "type": "QRCODE",
+                "data": "https://qrco.de/bd7ixp",
+                "quality": "good",
+                "rect": {
+                  "x": 22,
+                  "y": 13,
+                  "width": 112,
+                  "height": 112
+                }
+              }
+            ],
             "method": "pyzbar",
-            "codes": [],
+            "type": "barcode",
             "coordinates": {
-              "x0": 319.0,
-              "y0": 395.33,
-              "x1": 372.33,
-              "y1": 444.0
+              "x0": 319.6,
+              "y0": 397.0,
+              "x1": 371.4,
+              "y1": 442.4
+            }
+          }
+        ],
+        "Tagline": [
+          {
+            "value": "X\nMARKS\nTHE\nSPOT",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 312.8,
+              "y0": 237.6,
+              "x1": 378.0,
+              "y1": 327.6
+            }
+          }
+        ],
+        "Brand Message": [
+          {
+            "value": "JOIN THE\nPOD SALT\nFAMILY!",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 319.2,
+              "y0": 341.2,
+              "x1": 371.6,
+              "y1": 394.4
             }
           }
         ]
@@ -909,10 +939,10 @@
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 245.6,
-              "y0": 118.0,
-              "x1": 304.8,
-              "y1": 134.0
+              "x0": 245.26,
+              "y0": 114.95,
+              "x1": 304.42,
+              "y1": 134.95
             }
           },
           {
@@ -921,38 +951,24 @@
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 241.6,
-              "y0": 336.8,
-              "x1": 302.0,
-              "y1": 361.2
+              "x0": 240.8,
+              "y0": 335.4,
+              "x1": 302.6,
+              "y1": 363.8
             }
           }
         ],
-        "Batch Number": [
-          {
-            "value": "28862-4",
-            "confidence": "extracted",
-            "type": "text",
-            "method": "digital",
-            "coordinates": {
-              "x0": 326.0,
-              "y0": 121.6,
-              "x1": 368.0,
-              "y1": 130.4
-            }
-          }
-        ],
-        "mg/ml": [
+        "Concentration (mg/ml)": [
           {
             "value": "20mg/ml",
             "confidence": "extracted",
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 247.6,
-              "y0": 136.4,
-              "x1": 302.8,
-              "y1": 145.2
+              "x0": 245.26,
+              "y0": 136.42,
+              "x1": 304.63,
+              "y1": 146.53
             }
           },
           {
@@ -961,10 +977,24 @@
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 242.4,
-              "y0": 370.0,
-              "x1": 278.0,
-              "y1": 382.4
+              "x0": 240.4,
+              "y0": 368.4,
+              "x1": 278.6,
+              "y1": 381.6
+            }
+          }
+        ],
+        "XyFil Number": [
+          {
+            "value": "28862-4",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 315.37,
+              "y0": 120.42,
+              "x1": 365.68,
+              "y1": 132.42
             }
           }
         ],
@@ -975,10 +1005,10 @@
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 121.56,
-              "y0": 170.89,
-              "x1": 160.89,
-              "y1": 174.44
+              "x0": 121.2,
+              "y0": 170.2,
+              "x1": 144.2,
+              "y1": 175.0
             }
           }
         ],
@@ -989,38 +1019,38 @@
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 121.33,
-              "y0": 175.33,
-              "x1": 163.56,
-              "y1": 190.89
+              "x0": 121.8,
+              "y0": 175.2,
+              "x1": 164.4,
+              "y1": 190.0
             }
           }
         ],
         "Ingredients": [
           {
-            "value": "Ingredients: Vegetable Glycerine \n(50%), Propylene Glycol (50%), \nBlueberry Flavouring, Lemonade \nFlavouring, Artiﬁcial Sweetener, \n36mg/ml Nicotine Salt (2% \nNicotine). Contains: Citral, \nFuraneol. May produce an allergic",
+            "value": "Ingredients: Vegetable Glycerine \n(50%), Propylene Glycol (50%), \nBlueberry Flavouring, Lemonade \nFlavouring, Artiﬁcial Sweetener, \n36mg/ml Nicotine Salt (2% \nNicotine). Contains: Citral, \nFuraneol. May produce an allergic \nreaction",
             "confidence": "extracted",
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 96.44,
-              "y0": 194.44,
-              "x1": 164.67,
-              "y1": 226.89
+              "x0": 97.8,
+              "y0": 194.6,
+              "x1": 164.4,
+              "y1": 230.2
             }
           }
         ],
         "Danger Text": [
           {
-            "value": "reaction.\nDanger: Toxic if swallowed. \nFatal in contact with skin. \nHarmful if inhaled. Harmful to \naquatic life with long lasting \neﬀects. Keep out of reach of \nchildren. Do not get in eyes, on skin, \nor on clothing. Use only outdoors or \nin a well-ventilated area. Wear \nprotective gloves. IF SWALLOWED: \nImmediately call a doctor. Dispose \nof contents/container to hazardous \nor special waste collection point, in \naccordance with local, regional, \nnational and/or international \nregulation",
+            "value": "reaction.\nDanger: Toxic if swallowed. \nFatal in contact with skin. \nHarmful if inhaled. Harmful to \naquatic life with long lasting \neﬀects. Keep out of reach of \nchildren. Do not get in eyes, on skin, \nor on clothing. Use only outdoors or \nin a well-ventilated area. Wear \nprotective gloves. IF SWALLOWED: \nImmediately call a doctor. Dispose \nof contents/container to hazardous \nor special waste collection point, in \naccordance with local, regional, \nnational and/or international \nregulation.",
             "confidence": "extracted",
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 96.89,
-              "y0": 229.33,
-              "x1": 163.78,
-              "y1": 306.0
+              "x0": 98.8,
+              "y0": 230.8,
+              "x1": 163.4,
+              "y1": 314.0
             }
           }
         ],
@@ -1031,10 +1061,10 @@
             "image_count": 1,
             "type": "image",
             "coordinates": {
-              "x0": 95.78,
-              "y0": 312.89,
-              "x1": 164.44,
-              "y1": 382.22
+              "x0": 98.2,
+              "y0": 314.8,
+              "x1": 165.2,
+              "y1": 382.4
             }
           }
         ],
@@ -1045,10 +1075,10 @@
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 98.44,
-              "y0": 386.22,
-              "x1": 155.33,
-              "y1": 391.33
+              "x0": 96.2,
+              "y0": 384.4,
+              "x1": 165.2,
+              "y1": 391.2
             }
           }
         ],
@@ -1059,134 +1089,144 @@
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 98.0,
-              "y0": 391.56,
-              "x1": 156.44,
-              "y1": 397.33
+              "x0": 96.2,
+              "y0": 392.0,
+              "x1": 165.2,
+              "y1": 397.4
             }
           }
         ],
-        "Warning Text1": [
+        "Warning Text": [
           {
             "value": "This \nproduct \ncontains \nnicotine \nwhich is a \nhighly \naddictive \nsubstance.",
             "confidence": "extracted",
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 97.78,
-              "y0": 402.44,
-              "x1": 161.56,
-              "y1": 511.78
+              "x0": 97.0,
+              "y0": 401.4,
+              "x1": 164.4,
+              "y1": 512.2
             }
-          }
-        ],
-        "Warning Text2": [
+          },
           {
             "value": "This \nproduct \ncontains \nnicotine \nwhich is a \nhighly \naddictive \nsubstance.",
             "confidence": "extracted",
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 241.56,
-              "y0": 402.44,
-              "x1": 308.44,
-              "y1": 512.22
-            }
-          }
-        ],
-        "Volume": [
-          {
-            "value": "10ml",
-            "confidence": "extracted",
-            "type": "text",
-            "method": "digital",
-            "coordinates": {
-              "x0": 280.36,
-              "y0": 369.09,
-              "x1": 298.91,
-              "y1": 381.82
-            }
-          },
-          {
-            "value": "10ml",
-            "confidence": "extracted",
-            "type": "text",
-            "method": "digital",
-            "coordinates": {
-              "x0": 172.8,
-              "y0": 457.6,
-              "x1": 234.4,
-              "y1": 474.0
-            }
-          }
-        ],
-        "Extra Text": [
-          {
-            "value": "NEXUS\nNEXUS\nNEXUS",
-            "confidence": "extracted",
-            "type": "text",
-            "method": "ocr",
-            "coordinates": {
-              "x0": 315.2,
-              "y0": 456.0,
-              "x1": 378.0,
-              "y1": 513.6
-            }
-          },
-          {
-            "value": "ROD,",
-            "confidence": "extracted",
-            "type": "text",
-            "method": "ocr",
-            "coordinates": {
-              "x0": 317.2,
-              "y0": 163.6,
-              "x1": 375.2,
-              "y1": 230.0
-            }
-          },
-          {
-            "value": "POD\n=",
-            "confidence": "extracted",
-            "type": "text",
-            "method": "ocr",
-            "coordinates": {
-              "x0": 245.6,
-              "y0": 164.8,
-              "x1": 304.4,
-              "y1": 218.4
+              "x0": 241.6,
+              "y0": 402.0,
+              "x1": 308.0,
+              "y1": 513.0
             }
           }
         ],
         "Barcode Number": [
           {
-            "value": "[[[[ 13.803299  45.014523]\n  [ 13.796692   9.014521]\n  [172.1967     8.985477]\n  [172.20331   44.98548 ]]]] 5056598192165",
-            "confidence": "scanned",
-            "type": "barcode_qr",
-            "method": "pyzbar",
+            "value": "EAN13: 5056598192165",
+            "decoded": true,
             "codes": [
-              "[[[[ 13.803299  45.014523]\n  [ 13.796692   9.014521]\n  [172.1967     8.985477]\n  [172.20331   44.98548 ]]]] 5056598192165"
+              {
+                "type": "EAN13",
+                "data": "5056598192165",
+                "quality": "good",
+                "rect": {
+                  "x": 85,
+                  "y": 4,
+                  "width": 4,
+                  "height": 44
+                }
+              }
             ],
+            "method": "pyzbar",
+            "type": "barcode",
             "coordinates": {
-              "x0": 100.33,
-              "y0": 524.67,
-              "x1": 156.67,
+              "x0": 102.0,
+              "y0": 524.4,
+              "x1": 157.0,
               "y1": 548.0
+            }
+          }
+        ],
+        "Net Quantity": [
+          {
+            "value": "10ml",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 169.4,
+              "y0": 458.0,
+              "x1": 236.0,
+              "y1": 474.4
+            }
+          },
+          {
+            "value": "10ml",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 280.6,
+              "y0": 368.4,
+              "x1": 303.4,
+              "y1": 382.0
             }
           }
         ],
         "QR Code": [
           {
-            "value": "No code found",
-            "confidence": "empty",
-            "type": "barcode_qr",
+            "value": "QRCODE: https://qrco.de/bd7ixp",
+            "decoded": true,
+            "codes": [
+              {
+                "type": "QRCODE",
+                "data": "https://qrco.de/bd7ixp",
+                "quality": "good",
+                "rect": {
+                  "x": 22,
+                  "y": 13,
+                  "width": 112,
+                  "height": 112
+                }
+              }
+            ],
             "method": "pyzbar",
-            "codes": [],
+            "type": "barcode",
             "coordinates": {
-              "x0": 319.0,
-              "y0": 395.33,
-              "x1": 372.33,
-              "y1": 444.0
+              "x0": 319.6,
+              "y0": 397.0,
+              "x1": 371.4,
+              "y1": 442.4
+            }
+          }
+        ],
+        "Tagline": [
+          {
+            "value": "X\nMARKS\nTHE\nSPOT",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 312.8,
+              "y0": 237.6,
+              "x1": 378.0,
+              "y1": 327.6
+            }
+          }
+        ],
+        "Brand Message": [
+          {
+            "value": "JOIN THE\nPOD SALT\nFAMILY!",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 319.2,
+              "y0": 341.2,
+              "x1": 371.6,
+              "y1": 394.4
             }
           }
         ]
@@ -1206,10 +1246,10 @@
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 245.6,
-              "y0": 118.0,
-              "x1": 304.8,
-              "y1": 134.0
+              "x0": 245.26,
+              "y0": 114.95,
+              "x1": 304.42,
+              "y1": 134.95
             }
           },
           {
@@ -1218,38 +1258,24 @@
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 241.6,
-              "y0": 336.8,
-              "x1": 302.0,
-              "y1": 361.2
+              "x0": 240.8,
+              "y0": 335.4,
+              "x1": 302.6,
+              "y1": 363.8
             }
           }
         ],
-        "Batch Number": [
-          {
-            "value": "28880-4",
-            "confidence": "extracted",
-            "type": "text",
-            "method": "digital",
-            "coordinates": {
-              "x0": 326.0,
-              "y0": 121.6,
-              "x1": 368.0,
-              "y1": 130.4
-            }
-          }
-        ],
-        "mg/ml": [
+        "Concentration (mg/ml)": [
           {
             "value": "20mg/ml",
             "confidence": "extracted",
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 247.6,
-              "y0": 136.4,
-              "x1": 302.8,
-              "y1": 145.2
+              "x0": 245.26,
+              "y0": 136.42,
+              "x1": 304.63,
+              "y1": 146.53
             }
           },
           {
@@ -1258,10 +1284,24 @@
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 242.4,
-              "y0": 370.0,
-              "x1": 278.0,
-              "y1": 382.4
+              "x0": 240.4,
+              "y0": 368.4,
+              "x1": 278.6,
+              "y1": 381.6
+            }
+          }
+        ],
+        "XyFil Number": [
+          {
+            "value": "28880-4",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 315.37,
+              "y0": 120.42,
+              "x1": 365.68,
+              "y1": 132.42
             }
           }
         ],
@@ -1272,10 +1312,10 @@
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 121.56,
-              "y0": 170.89,
-              "x1": 160.89,
-              "y1": 174.44
+              "x0": 121.2,
+              "y0": 170.2,
+              "x1": 144.2,
+              "y1": 175.0
             }
           }
         ],
@@ -1286,38 +1326,38 @@
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 121.33,
-              "y0": 175.33,
-              "x1": 163.56,
-              "y1": 190.89
+              "x0": 121.8,
+              "y0": 175.2,
+              "x1": 164.4,
+              "y1": 190.0
             }
           }
         ],
         "Ingredients": [
           {
-            "value": "Ingredients: Vegetable Glycerine \n(50%), Propylene Glycol (50%), \nWatermelon Gummy Flavouring, \nArtiﬁcial Sweetener, 36mg/ml \nNicotine Salt (2% Nicotine). \nContains: Melonal, Citral, \nFuraneol. May produce an allergic",
+            "value": "Ingredients: Vegetable Glycerine \n(50%), Propylene Glycol (50%), \nWatermelon Gummy Flavouring, \nArtiﬁcial Sweetener, 36mg/ml \nNicotine Salt (2% Nicotine). \nContains: Melonal, Citral, \nFuraneol. May produce an allergic \nreaction",
             "confidence": "extracted",
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 96.44,
-              "y0": 194.44,
-              "x1": 164.67,
-              "y1": 226.89
+              "x0": 97.8,
+              "y0": 194.6,
+              "x1": 164.4,
+              "y1": 230.2
             }
           }
         ],
         "Danger Text": [
           {
-            "value": "Danger: Toxic if swallowed. \nFatal in contact with skin. \nHarmful if inhaled. Harmful to \naquatic life with long lasting \neﬀects. Keep out of reach of \nchildren. Do not get in eyes, on \nskin, or on clothing. Use only \noutdoors or in a well-ventilated \narea. Wear protective gloves. IF \nSWALLOWED: Immediately call a \ndoctor. Dispose of \ncontents/container to hazardous \nor special waste collection point, \nin accordance with local, \nregional, national and/or \ni t\nti\nl\nl ti\nreaction.",
+            "value": "Danger: Toxic if swallowed. \nFatal in contact with skin. \nHarmful if inhaled. Harmful to \naquatic life with long lasting \neﬀects. Keep out of reach of \nchildren. Do not get in eyes, on \nskin, or on clothing. Use only \noutdoors or in a well-ventilated \narea. Wear protective gloves. IF \nSWALLOWED: Immediately call a \ndoctor. Dispose of \ncontents/container to hazardous \nor special waste collection point, \nin accordance with local, \nregional, national and/or \ninternational regulation.\nreaction.",
             "confidence": "extracted",
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 96.89,
-              "y0": 229.33,
-              "x1": 163.78,
-              "y1": 306.0
+              "x0": 98.8,
+              "y0": 230.8,
+              "x1": 163.4,
+              "y1": 314.0
             }
           }
         ],
@@ -1328,10 +1368,10 @@
             "image_count": 1,
             "type": "image",
             "coordinates": {
-              "x0": 95.78,
-              "y0": 312.89,
-              "x1": 164.44,
-              "y1": 382.22
+              "x0": 98.2,
+              "y0": 314.8,
+              "x1": 165.2,
+              "y1": 382.4
             }
           }
         ],
@@ -1342,10 +1382,10 @@
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 98.44,
-              "y0": 386.22,
-              "x1": 155.33,
-              "y1": 391.33
+              "x0": 96.2,
+              "y0": 384.4,
+              "x1": 165.2,
+              "y1": 391.2
             }
           }
         ],
@@ -1356,134 +1396,144 @@
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 98.0,
-              "y0": 391.56,
-              "x1": 156.44,
-              "y1": 397.33
+              "x0": 96.2,
+              "y0": 392.0,
+              "x1": 165.2,
+              "y1": 397.4
             }
           }
         ],
-        "Warning Text1": [
+        "Warning Text": [
           {
             "value": "This \nproduct \ncontains \nnicotine \nwhich is a \nhighly \naddictive \nsubstance.",
             "confidence": "extracted",
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 97.78,
-              "y0": 402.44,
-              "x1": 161.56,
-              "y1": 511.78
+              "x0": 97.0,
+              "y0": 401.4,
+              "x1": 164.4,
+              "y1": 512.2
             }
-          }
-        ],
-        "Warning Text2": [
+          },
           {
             "value": "This \nproduct \ncontains \nnicotine \nwhich is a \nhighly \naddictive \nsubstance.",
             "confidence": "extracted",
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 241.56,
-              "y0": 402.44,
-              "x1": 308.44,
-              "y1": 512.22
-            }
-          }
-        ],
-        "Volume": [
-          {
-            "value": "10ml",
-            "confidence": "extracted",
-            "type": "text",
-            "method": "digital",
-            "coordinates": {
-              "x0": 280.36,
-              "y0": 369.09,
-              "x1": 298.91,
-              "y1": 381.82
-            }
-          },
-          {
-            "value": "10ml",
-            "confidence": "extracted",
-            "type": "text",
-            "method": "digital",
-            "coordinates": {
-              "x0": 172.8,
-              "y0": 457.6,
-              "x1": 234.4,
-              "y1": 474.0
-            }
-          }
-        ],
-        "Extra Text": [
-          {
-            "value": "NEXUS",
-            "confidence": "extracted",
-            "type": "text",
-            "method": "ocr",
-            "coordinates": {
-              "x0": 315.2,
-              "y0": 456.0,
-              "x1": 378.0,
-              "y1": 513.6
-            }
-          },
-          {
-            "value": "POD",
-            "confidence": "extracted",
-            "type": "text",
-            "method": "ocr",
-            "coordinates": {
-              "x0": 317.2,
-              "y0": 163.6,
-              "x1": 375.2,
-              "y1": 230.0
-            }
-          },
-          {
-            "value": "(PXYOYDY",
-            "confidence": "extracted",
-            "type": "text",
-            "method": "ocr",
-            "coordinates": {
-              "x0": 245.6,
-              "y0": 164.8,
-              "x1": 304.4,
-              "y1": 218.4
+              "x0": 241.6,
+              "y0": 402.0,
+              "x1": 308.0,
+              "y1": 513.0
             }
           }
         ],
         "Barcode Number": [
           {
-            "value": "[[[[ 13.798843  44.994923]\n  [ 13.801147   8.994925]\n  [172.20116    9.005077]\n  [172.19885   45.005074]]]] 5056598192288",
-            "confidence": "scanned",
-            "type": "barcode_qr",
-            "method": "pyzbar",
+            "value": "EAN13: 5056598192288",
+            "decoded": true,
             "codes": [
-              "[[[[ 13.798843  44.994923]\n  [ 13.801147   8.994925]\n  [172.20116    9.005077]\n  [172.19885   45.005074]]]] 5056598192288"
+              {
+                "type": "EAN13",
+                "data": "5056598192288",
+                "quality": "good",
+                "rect": {
+                  "x": 85,
+                  "y": 4,
+                  "width": 68,
+                  "height": 44
+                }
+              }
             ],
+            "method": "pyzbar",
+            "type": "barcode",
             "coordinates": {
-              "x0": 100.33,
-              "y0": 524.67,
-              "x1": 156.67,
+              "x0": 102.0,
+              "y0": 524.4,
+              "x1": 157.0,
               "y1": 548.0
+            }
+          }
+        ],
+        "Net Quantity": [
+          {
+            "value": "10ml",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 169.4,
+              "y0": 458.0,
+              "x1": 236.0,
+              "y1": 474.4
+            }
+          },
+          {
+            "value": "10ml",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 280.6,
+              "y0": 368.4,
+              "x1": 303.4,
+              "y1": 382.0
             }
           }
         ],
         "QR Code": [
           {
-            "value": "No code found",
-            "confidence": "empty",
-            "type": "barcode_qr",
+            "value": "QRCODE: https://qrco.de/bd7ixp",
+            "decoded": true,
+            "codes": [
+              {
+                "type": "QRCODE",
+                "data": "https://qrco.de/bd7ixp",
+                "quality": "good",
+                "rect": {
+                  "x": 22,
+                  "y": 13,
+                  "width": 112,
+                  "height": 112
+                }
+              }
+            ],
             "method": "pyzbar",
-            "codes": [],
+            "type": "barcode",
             "coordinates": {
-              "x0": 319.0,
-              "y0": 395.33,
-              "x1": 372.33,
-              "y1": 444.0
+              "x0": 319.6,
+              "y0": 397.0,
+              "x1": 371.4,
+              "y1": 442.4
+            }
+          }
+        ],
+        "Tagline": [
+          {
+            "value": "X\nMARKS\nTHE\nSPOT",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 312.8,
+              "y0": 237.6,
+              "x1": 378.0,
+              "y1": 327.6
+            }
+          }
+        ],
+        "Brand Message": [
+          {
+            "value": "JOIN THE\nPOD SALT\nFAMILY!",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 319.2,
+              "y0": 341.2,
+              "x1": 371.6,
+              "y1": 394.4
             }
           }
         ]
@@ -1503,10 +1553,10 @@
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 245.6,
-              "y0": 118.0,
-              "x1": 304.8,
-              "y1": 134.0
+              "x0": 245.26,
+              "y0": 114.95,
+              "x1": 304.42,
+              "y1": 134.95
             }
           },
           {
@@ -1515,38 +1565,24 @@
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 241.6,
-              "y0": 336.8,
-              "x1": 302.0,
-              "y1": 361.2
+              "x0": 240.8,
+              "y0": 335.4,
+              "x1": 302.6,
+              "y1": 363.8
             }
           }
         ],
-        "Batch Number": [
-          {
-            "value": "28865-4",
-            "confidence": "extracted",
-            "type": "text",
-            "method": "digital",
-            "coordinates": {
-              "x0": 326.0,
-              "y0": 121.6,
-              "x1": 368.0,
-              "y1": 130.4
-            }
-          }
-        ],
-        "mg/ml": [
+        "Concentration (mg/ml)": [
           {
             "value": "20mg/ml",
             "confidence": "extracted",
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 247.6,
-              "y0": 136.4,
-              "x1": 302.8,
-              "y1": 145.2
+              "x0": 245.26,
+              "y0": 136.42,
+              "x1": 304.63,
+              "y1": 146.53
             }
           },
           {
@@ -1555,10 +1591,24 @@
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 242.4,
-              "y0": 370.0,
-              "x1": 278.0,
-              "y1": 382.4
+              "x0": 240.4,
+              "y0": 368.4,
+              "x1": 278.6,
+              "y1": 381.6
+            }
+          }
+        ],
+        "XyFil Number": [
+          {
+            "value": "28865-4",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 315.37,
+              "y0": 120.42,
+              "x1": 365.68,
+              "y1": 132.42
             }
           }
         ],
@@ -1569,10 +1619,10 @@
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 121.56,
-              "y0": 170.89,
-              "x1": 160.89,
-              "y1": 174.44
+              "x0": 121.2,
+              "y0": 170.2,
+              "x1": 144.2,
+              "y1": 175.0
             }
           }
         ],
@@ -1583,38 +1633,38 @@
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 121.33,
-              "y0": 175.33,
-              "x1": 163.56,
-              "y1": 190.89
+              "x0": 121.8,
+              "y0": 175.2,
+              "x1": 164.4,
+              "y1": 190.0
             }
           }
         ],
         "Ingredients": [
           {
-            "value": "Ingredients: Vegetable Glycerine \n(50%), Propylene Glycol (50%), \nCherry Flavouring, Lemonade \nFlavouring, Artiﬁcial Sweetener, \n36mg/ml Nicotine Salt (2% \nNicotine). Contains:  Benzyl Alcohol, \nCitral, Lemon Extract, Lime Extract.",
+            "value": "Ingredients: Vegetable Glycerine \n(50%), Propylene Glycol (50%), \nCherry Flavouring, Lemonade \nFlavouring, Artiﬁcial Sweetener, \n36mg/ml Nicotine Salt (2% \nNicotine). Contains:  Benzyl Alcohol, \nCitral, Lemon Extract, Lime Extract. \nMay produce an allergic reaction",
             "confidence": "extracted",
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 96.44,
-              "y0": 194.44,
-              "x1": 164.67,
-              "y1": 226.89
+              "x0": 97.8,
+              "y0": 194.6,
+              "x1": 164.4,
+              "y1": 230.2
             }
           }
         ],
         "Danger Text": [
           {
-            "value": "Danger: Toxic if swallowed. \nFatal in contact with skin. \nHarmful if inhaled. Harmful to \naquatic life with long lasting \neﬀects. Keep out of reach of \nchildren. Do not get in eyes, on skin, \nor on clothing. Use only outdoors \nor in a well-ventilated area. Wear \nprotective gloves. IF SWALLOWED: \nImmediately call a doctor. Dispose \nof contents/container to \nhazardous or special waste \ncollection point, in accordance with \nlocal, regional, national and/or \ninternational regulation\nMay produce an allergic reaction.",
+            "value": "Danger: Toxic if swallowed. \nFatal in contact with skin. \nHarmful if inhaled. Harmful to \naquatic life with long lasting \neﬀects. Keep out of reach of \nchildren. Do not get in eyes, on skin, \nor on clothing. Use only outdoors \nor in a well-ventilated area. Wear \nprotective gloves. IF SWALLOWED: \nImmediately call a doctor. Dispose \nof contents/container to \nhazardous or special waste \ncollection point, in accordance with \nlocal, regional, national and/or \ninternational regulation.\nMay produce an allergic reaction.",
             "confidence": "extracted",
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 96.89,
-              "y0": 229.33,
-              "x1": 163.78,
-              "y1": 306.0
+              "x0": 98.8,
+              "y0": 230.8,
+              "x1": 163.4,
+              "y1": 314.0
             }
           }
         ],
@@ -1625,10 +1675,10 @@
             "image_count": 1,
             "type": "image",
             "coordinates": {
-              "x0": 95.78,
-              "y0": 312.89,
-              "x1": 164.44,
-              "y1": 382.22
+              "x0": 98.2,
+              "y0": 314.8,
+              "x1": 165.2,
+              "y1": 382.4
             }
           }
         ],
@@ -1639,10 +1689,10 @@
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 98.44,
-              "y0": 386.22,
-              "x1": 155.33,
-              "y1": 391.33
+              "x0": 96.2,
+              "y0": 384.4,
+              "x1": 165.2,
+              "y1": 391.2
             }
           }
         ],
@@ -1653,134 +1703,144 @@
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 98.0,
-              "y0": 391.56,
-              "x1": 156.44,
-              "y1": 397.33
+              "x0": 96.2,
+              "y0": 392.0,
+              "x1": 165.2,
+              "y1": 397.4
             }
           }
         ],
-        "Warning Text1": [
+        "Warning Text": [
           {
             "value": "This \nproduct \ncontains \nnicotine \nwhich is a \nhighly \naddictive \nsubstance.",
             "confidence": "extracted",
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 97.78,
-              "y0": 402.44,
-              "x1": 161.56,
-              "y1": 511.78
+              "x0": 97.0,
+              "y0": 401.4,
+              "x1": 164.4,
+              "y1": 512.2
             }
-          }
-        ],
-        "Warning Text2": [
+          },
           {
             "value": "This \nproduct \ncontains \nnicotine \nwhich is a \nhighly \naddictive \nsubstance.",
             "confidence": "extracted",
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 241.56,
-              "y0": 402.44,
-              "x1": 308.44,
-              "y1": 512.22
-            }
-          }
-        ],
-        "Volume": [
-          {
-            "value": "10ml",
-            "confidence": "extracted",
-            "type": "text",
-            "method": "digital",
-            "coordinates": {
-              "x0": 280.36,
-              "y0": 369.09,
-              "x1": 298.91,
-              "y1": 381.82
-            }
-          },
-          {
-            "value": "10ml",
-            "confidence": "extracted",
-            "type": "text",
-            "method": "digital",
-            "coordinates": {
-              "x0": 172.8,
-              "y0": 457.6,
-              "x1": 234.4,
-              "y1": 474.0
-            }
-          }
-        ],
-        "Extra Text": [
-          {
-            "value": "NEXUS\nNEXUS\nNEXUS",
-            "confidence": "extracted",
-            "type": "text",
-            "method": "ocr",
-            "coordinates": {
-              "x0": 315.2,
-              "y0": 456.0,
-              "x1": 378.0,
-              "y1": 513.6
-            }
-          },
-          {
-            "value": "ROD",
-            "confidence": "extracted",
-            "type": "text",
-            "method": "ocr",
-            "coordinates": {
-              "x0": 317.2,
-              "y0": 163.6,
-              "x1": 375.2,
-              "y1": 230.0
-            }
-          },
-          {
-            "value": "POD\n=",
-            "confidence": "extracted",
-            "type": "text",
-            "method": "ocr",
-            "coordinates": {
-              "x0": 245.6,
-              "y0": 164.8,
-              "x1": 304.4,
-              "y1": 218.4
+              "x0": 241.6,
+              "y0": 402.0,
+              "x1": 308.0,
+              "y1": 513.0
             }
           }
         ],
         "Barcode Number": [
           {
-            "value": "[[[[ 13.8027115  45.011963 ]\n  [ 13.797279    9.011962 ]\n  [172.1973      8.988037 ]\n  [172.20273    44.988037 ]]]] 5056598192257",
-            "confidence": "scanned",
-            "type": "barcode_qr",
-            "method": "pyzbar",
+            "value": "EAN13: 5056598192257",
+            "decoded": true,
             "codes": [
-              "[[[[ 13.8027115  45.011963 ]\n  [ 13.797279    9.011962 ]\n  [172.1973      8.988037 ]\n  [172.20273    44.988037 ]]]] 5056598192257"
+              {
+                "type": "EAN13",
+                "data": "5056598192257",
+                "quality": "good",
+                "rect": {
+                  "x": 85,
+                  "y": 4,
+                  "width": 68,
+                  "height": 44
+                }
+              }
             ],
+            "method": "pyzbar",
+            "type": "barcode",
             "coordinates": {
-              "x0": 100.33,
-              "y0": 524.67,
-              "x1": 156.67,
+              "x0": 102.0,
+              "y0": 524.4,
+              "x1": 157.0,
               "y1": 548.0
+            }
+          }
+        ],
+        "Net Quantity": [
+          {
+            "value": "10ml",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 169.4,
+              "y0": 458.0,
+              "x1": 236.0,
+              "y1": 474.4
+            }
+          },
+          {
+            "value": "10ml",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 280.6,
+              "y0": 368.4,
+              "x1": 303.4,
+              "y1": 382.0
             }
           }
         ],
         "QR Code": [
           {
-            "value": "No code found",
-            "confidence": "empty",
-            "type": "barcode_qr",
+            "value": "QRCODE: https://qrco.de/bd7ixp",
+            "decoded": true,
+            "codes": [
+              {
+                "type": "QRCODE",
+                "data": "https://qrco.de/bd7ixp",
+                "quality": "good",
+                "rect": {
+                  "x": 22,
+                  "y": 13,
+                  "width": 112,
+                  "height": 112
+                }
+              }
+            ],
             "method": "pyzbar",
-            "codes": [],
+            "type": "barcode",
             "coordinates": {
-              "x0": 319.0,
-              "y0": 395.33,
-              "x1": 372.33,
-              "y1": 444.0
+              "x0": 319.6,
+              "y0": 397.0,
+              "x1": 371.4,
+              "y1": 442.4
+            }
+          }
+        ],
+        "Tagline": [
+          {
+            "value": "X\nMARKS\nTHE\nSPOT",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 312.8,
+              "y0": 237.6,
+              "x1": 378.0,
+              "y1": 327.6
+            }
+          }
+        ],
+        "Brand Message": [
+          {
+            "value": "JOIN THE\nPOD SALT\nFAMILY!",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 319.2,
+              "y0": 341.2,
+              "x1": 371.6,
+              "y1": 394.4
             }
           }
         ]
@@ -1800,10 +1860,10 @@
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 245.6,
-              "y0": 118.0,
-              "x1": 304.8,
-              "y1": 134.0
+              "x0": 245.26,
+              "y0": 114.95,
+              "x1": 304.42,
+              "y1": 134.95
             }
           },
           {
@@ -1812,38 +1872,24 @@
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 241.6,
-              "y0": 336.8,
-              "x1": 302.0,
-              "y1": 361.2
+              "x0": 240.8,
+              "y0": 335.4,
+              "x1": 302.6,
+              "y1": 363.8
             }
           }
         ],
-        "Batch Number": [
-          {
-            "value": "28871-4",
-            "confidence": "extracted",
-            "type": "text",
-            "method": "digital",
-            "coordinates": {
-              "x0": 326.0,
-              "y0": 121.6,
-              "x1": 368.0,
-              "y1": 130.4
-            }
-          }
-        ],
-        "mg/ml": [
+        "Concentration (mg/ml)": [
           {
             "value": "20mg/ml",
             "confidence": "extracted",
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 247.6,
-              "y0": 136.4,
-              "x1": 302.8,
-              "y1": 145.2
+              "x0": 245.26,
+              "y0": 136.42,
+              "x1": 304.63,
+              "y1": 146.53
             }
           },
           {
@@ -1852,10 +1898,24 @@
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 242.4,
-              "y0": 370.0,
-              "x1": 278.0,
-              "y1": 382.4
+              "x0": 240.4,
+              "y0": 368.4,
+              "x1": 278.6,
+              "y1": 381.6
+            }
+          }
+        ],
+        "XyFil Number": [
+          {
+            "value": "28871-4",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 315.37,
+              "y0": 120.42,
+              "x1": 365.68,
+              "y1": 132.42
             }
           }
         ],
@@ -1866,10 +1926,10 @@
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 121.56,
-              "y0": 170.89,
-              "x1": 160.89,
-              "y1": 174.44
+              "x0": 121.2,
+              "y0": 170.2,
+              "x1": 144.2,
+              "y1": 175.0
             }
           }
         ],
@@ -1880,10 +1940,10 @@
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 121.33,
-              "y0": 175.33,
-              "x1": 163.56,
-              "y1": 190.89
+              "x0": 121.8,
+              "y0": 175.2,
+              "x1": 164.4,
+              "y1": 190.0
             }
           }
         ],
@@ -1894,24 +1954,24 @@
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 96.44,
-              "y0": 194.44,
-              "x1": 164.67,
-              "y1": 226.89
+              "x0": 97.8,
+              "y0": 194.6,
+              "x1": 164.4,
+              "y1": 230.2
             }
           }
         ],
         "Danger Text": [
           {
-            "value": "Danger: Toxic if swallowed. \nFatal in contact with skin. \nMay cause an allergic skin \nreaction. Harmful if inhaled. \nHarmful to aquatic life with \nlong lasting eﬀects. Keep out of \nreach of children. Do not get in \neyes, on skin, or on clothing. Use \nonly outdoors or in a \nwell-ventilated area. Wear \nprotective gloves. IF \nSWALLOWED: Immediately call a \ndoctor. Dispose of \ncontents/container to hazardous \nor special waste collection point, \nin accordance with local, \nregional, national and/or",
+            "value": "Danger: Toxic if swallowed. \nFatal in contact with skin. \nMay cause an allergic skin \nreaction. Harmful if inhaled. \nHarmful to aquatic life with \nlong lasting eﬀects. Keep out of \nreach of children. Do not get in \neyes, on skin, or on clothing. Use \nonly outdoors or in a \nwell-ventilated area. Wear \nprotective gloves. IF \nSWALLOWED: Immediately call a \ndoctor. Dispose of \ncontents/container to hazardous \nor special waste collection point, \nin accordance with local, \nregional, national and/or \ninternational regulation.",
             "confidence": "extracted",
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 96.89,
-              "y0": 229.33,
-              "x1": 163.78,
-              "y1": 306.0
+              "x0": 98.8,
+              "y0": 230.8,
+              "x1": 163.4,
+              "y1": 314.0
             }
           }
         ],
@@ -1922,10 +1982,10 @@
             "image_count": 1,
             "type": "image",
             "coordinates": {
-              "x0": 95.78,
-              "y0": 312.89,
-              "x1": 164.44,
-              "y1": 382.22
+              "x0": 98.2,
+              "y0": 314.8,
+              "x1": 165.2,
+              "y1": 382.4
             }
           }
         ],
@@ -1936,10 +1996,10 @@
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 98.44,
-              "y0": 386.22,
-              "x1": 155.33,
-              "y1": 391.33
+              "x0": 96.2,
+              "y0": 384.4,
+              "x1": 165.2,
+              "y1": 391.2
             }
           }
         ],
@@ -1950,134 +2010,144 @@
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 98.0,
-              "y0": 391.56,
-              "x1": 156.44,
-              "y1": 397.33
+              "x0": 96.2,
+              "y0": 392.0,
+              "x1": 165.2,
+              "y1": 397.4
             }
           }
         ],
-        "Warning Text1": [
+        "Warning Text": [
           {
             "value": "This \nproduct \ncontains \nnicotine \nwhich is a \nhighly \naddictive \nsubstance.",
             "confidence": "extracted",
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 97.78,
-              "y0": 402.44,
-              "x1": 161.56,
-              "y1": 511.78
+              "x0": 97.0,
+              "y0": 401.4,
+              "x1": 164.4,
+              "y1": 512.2
             }
-          }
-        ],
-        "Warning Text2": [
+          },
           {
             "value": "This \nproduct \ncontains \nnicotine \nwhich is a \nhighly \naddictive \nsubstance.",
             "confidence": "extracted",
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 241.56,
-              "y0": 402.44,
-              "x1": 308.44,
-              "y1": 512.22
-            }
-          }
-        ],
-        "Volume": [
-          {
-            "value": "10ml",
-            "confidence": "extracted",
-            "type": "text",
-            "method": "digital",
-            "coordinates": {
-              "x0": 280.36,
-              "y0": 369.09,
-              "x1": 298.91,
-              "y1": 381.82
-            }
-          },
-          {
-            "value": "10ml",
-            "confidence": "extracted",
-            "type": "text",
-            "method": "digital",
-            "coordinates": {
-              "x0": 172.8,
-              "y0": 457.6,
-              "x1": 234.4,
-              "y1": 474.0
-            }
-          }
-        ],
-        "Extra Text": [
-          {
-            "value": "INEXUS)",
-            "confidence": "extracted",
-            "type": "text",
-            "method": "ocr",
-            "coordinates": {
-              "x0": 315.2,
-              "y0": 456.0,
-              "x1": 378.0,
-              "y1": 513.6
-            }
-          },
-          {
-            "value": "POD",
-            "confidence": "extracted",
-            "type": "text",
-            "method": "ocr",
-            "coordinates": {
-              "x0": 317.2,
-              "y0": 163.6,
-              "x1": 375.2,
-              "y1": 230.0
-            }
-          },
-          {
-            "value": "PX DY",
-            "confidence": "extracted",
-            "type": "text",
-            "method": "ocr",
-            "coordinates": {
-              "x0": 245.6,
-              "y0": 164.8,
-              "x1": 304.4,
-              "y1": 218.4
+              "x0": 241.6,
+              "y0": 402.0,
+              "x1": 308.0,
+              "y1": 513.0
             }
           }
         ],
         "Barcode Number": [
           {
-            "value": "[[[[ 13.803299  45.014523]\n  [ 13.796692   9.014521]\n  [172.1967     8.985477]\n  [172.20331   44.98548 ]]]] 5056598192400",
-            "confidence": "scanned",
-            "type": "barcode_qr",
-            "method": "pyzbar",
+            "value": "EAN13: 5056598192400",
+            "decoded": true,
             "codes": [
-              "[[[[ 13.803299  45.014523]\n  [ 13.796692   9.014521]\n  [172.1967     8.985477]\n  [172.20331   44.98548 ]]]] 5056598192400"
+              {
+                "type": "EAN13",
+                "data": "5056598192400",
+                "quality": "good",
+                "rect": {
+                  "x": 85,
+                  "y": 4,
+                  "width": 68,
+                  "height": 44
+                }
+              }
             ],
+            "method": "pyzbar",
+            "type": "barcode",
             "coordinates": {
-              "x0": 100.33,
-              "y0": 524.67,
-              "x1": 156.67,
+              "x0": 102.0,
+              "y0": 524.4,
+              "x1": 157.0,
               "y1": 548.0
+            }
+          }
+        ],
+        "Net Quantity": [
+          {
+            "value": "10ml",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 169.4,
+              "y0": 458.0,
+              "x1": 236.0,
+              "y1": 474.4
+            }
+          },
+          {
+            "value": "10ml",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 280.6,
+              "y0": 368.4,
+              "x1": 303.4,
+              "y1": 382.0
             }
           }
         ],
         "QR Code": [
           {
-            "value": "No code found",
-            "confidence": "empty",
-            "type": "barcode_qr",
+            "value": "QRCODE: https://qrco.de/bd7ixp",
+            "decoded": true,
+            "codes": [
+              {
+                "type": "QRCODE",
+                "data": "https://qrco.de/bd7ixp",
+                "quality": "good",
+                "rect": {
+                  "x": 22,
+                  "y": 13,
+                  "width": 112,
+                  "height": 112
+                }
+              }
+            ],
             "method": "pyzbar",
-            "codes": [],
+            "type": "barcode",
             "coordinates": {
-              "x0": 319.0,
-              "y0": 395.33,
-              "x1": 372.33,
-              "y1": 444.0
+              "x0": 319.6,
+              "y0": 397.0,
+              "x1": 371.4,
+              "y1": 442.4
+            }
+          }
+        ],
+        "Tagline": [
+          {
+            "value": "X\nMARKS\nTHE\nSPOT",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 312.8,
+              "y0": 237.6,
+              "x1": 378.0,
+              "y1": 327.6
+            }
+          }
+        ],
+        "Brand Message": [
+          {
+            "value": "JOIN THE\nPOD SALT\nFAMILY!",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 319.2,
+              "y0": 341.2,
+              "x1": 371.6,
+              "y1": 394.4
             }
           }
         ]
@@ -2097,10 +2167,10 @@
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 245.6,
-              "y0": 118.0,
-              "x1": 304.8,
-              "y1": 134.0
+              "x0": 245.26,
+              "y0": 114.95,
+              "x1": 304.42,
+              "y1": 134.95
             }
           },
           {
@@ -2109,38 +2179,24 @@
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 241.6,
-              "y0": 336.8,
-              "x1": 302.0,
-              "y1": 361.2
+              "x0": 240.8,
+              "y0": 335.4,
+              "x1": 302.6,
+              "y1": 363.8
             }
           }
         ],
-        "Batch Number": [
-          {
-            "value": "28874-4",
-            "confidence": "extracted",
-            "type": "text",
-            "method": "digital",
-            "coordinates": {
-              "x0": 326.0,
-              "y0": 121.6,
-              "x1": 368.0,
-              "y1": 130.4
-            }
-          }
-        ],
-        "mg/ml": [
+        "Concentration (mg/ml)": [
           {
             "value": "20mg/ml",
             "confidence": "extracted",
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 247.6,
-              "y0": 136.4,
-              "x1": 302.8,
-              "y1": 145.2
+              "x0": 245.26,
+              "y0": 136.42,
+              "x1": 304.63,
+              "y1": 146.53
             }
           },
           {
@@ -2149,10 +2205,24 @@
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 242.4,
-              "y0": 370.0,
-              "x1": 278.0,
-              "y1": 382.4
+              "x0": 240.4,
+              "y0": 368.4,
+              "x1": 278.6,
+              "y1": 381.6
+            }
+          }
+        ],
+        "XyFil Number": [
+          {
+            "value": "28874-4",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 315.37,
+              "y0": 120.42,
+              "x1": 365.68,
+              "y1": 132.42
             }
           }
         ],
@@ -2163,10 +2233,10 @@
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 121.56,
-              "y0": 170.89,
-              "x1": 160.89,
-              "y1": 174.44
+              "x0": 121.2,
+              "y0": 170.2,
+              "x1": 144.2,
+              "y1": 175.0
             }
           }
         ],
@@ -2177,10 +2247,10 @@
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 121.33,
-              "y0": 175.33,
-              "x1": 163.56,
-              "y1": 190.89
+              "x0": 121.8,
+              "y0": 175.2,
+              "x1": 164.4,
+              "y1": 190.0
             }
           }
         ],
@@ -2191,24 +2261,24 @@
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 96.44,
-              "y0": 194.44,
-              "x1": 164.67,
-              "y1": 226.89
+              "x0": 97.8,
+              "y0": 194.6,
+              "x1": 164.4,
+              "y1": 230.2
             }
           }
         ],
         "Danger Text": [
           {
-            "value": "Danger: Toxic if swallowed. \nFatal in contact with skin. \nHarmful if inhaled. Harmful to \naquatic life with long lasting \neﬀects. Keep out of reach of \nchildren. Do not get in eyes, on \nskin, or on clothing. Use only \noutdoors or in a well-ventilated \narea. Wear protective gloves. IF \nSWALLOWED: Immediately call a \ndoctor. Dispose of \ncontents/container to hazardous \nor special waste collection point, \nin accordance with local, \nregional, national and/or \ninternational regulation",
+            "value": "Danger: Toxic if swallowed. \nFatal in contact with skin. \nHarmful if inhaled. Harmful to \naquatic life with long lasting \neﬀects. Keep out of reach of \nchildren. Do not get in eyes, on \nskin, or on clothing. Use only \noutdoors or in a well-ventilated \narea. Wear protective gloves. IF \nSWALLOWED: Immediately call a \ndoctor. Dispose of \ncontents/container to hazardous \nor special waste collection point, \nin accordance with local, \nregional, national and/or \ninternational regulation.",
             "confidence": "extracted",
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 96.89,
-              "y0": 229.33,
-              "x1": 163.78,
-              "y1": 306.0
+              "x0": 98.8,
+              "y0": 230.8,
+              "x1": 163.4,
+              "y1": 314.0
             }
           }
         ],
@@ -2219,10 +2289,10 @@
             "image_count": 1,
             "type": "image",
             "coordinates": {
-              "x0": 95.78,
-              "y0": 312.89,
-              "x1": 164.44,
-              "y1": 382.22
+              "x0": 98.2,
+              "y0": 314.8,
+              "x1": 165.2,
+              "y1": 382.4
             }
           }
         ],
@@ -2233,10 +2303,10 @@
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 98.44,
-              "y0": 386.22,
-              "x1": 155.33,
-              "y1": 391.33
+              "x0": 96.2,
+              "y0": 384.4,
+              "x1": 165.2,
+              "y1": 391.2
             }
           }
         ],
@@ -2247,134 +2317,144 @@
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 98.0,
-              "y0": 391.56,
-              "x1": 156.44,
-              "y1": 397.33
+              "x0": 96.2,
+              "y0": 392.0,
+              "x1": 165.2,
+              "y1": 397.4
             }
           }
         ],
-        "Warning Text1": [
+        "Warning Text": [
           {
             "value": "This \nproduct \ncontains \nnicotine \nwhich is a \nhighly \naddictive \nsubstance.",
             "confidence": "extracted",
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 97.78,
-              "y0": 402.44,
-              "x1": 161.56,
-              "y1": 511.78
+              "x0": 97.0,
+              "y0": 401.4,
+              "x1": 164.4,
+              "y1": 512.2
             }
-          }
-        ],
-        "Warning Text2": [
+          },
           {
             "value": "This \nproduct \ncontains \nnicotine \nwhich is a \nhighly \naddictive \nsubstance.",
             "confidence": "extracted",
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 241.56,
-              "y0": 402.44,
-              "x1": 308.44,
-              "y1": 512.22
-            }
-          }
-        ],
-        "Volume": [
-          {
-            "value": "10ml",
-            "confidence": "extracted",
-            "type": "text",
-            "method": "digital",
-            "coordinates": {
-              "x0": 280.36,
-              "y0": 369.09,
-              "x1": 298.91,
-              "y1": 381.82
-            }
-          },
-          {
-            "value": "10ml",
-            "confidence": "extracted",
-            "type": "text",
-            "method": "digital",
-            "coordinates": {
-              "x0": 172.8,
-              "y0": 457.6,
-              "x1": 234.4,
-              "y1": 474.0
-            }
-          }
-        ],
-        "Extra Text": [
-          {
-            "value": "INEXUS",
-            "confidence": "extracted",
-            "type": "text",
-            "method": "ocr",
-            "coordinates": {
-              "x0": 315.2,
-              "y0": 456.0,
-              "x1": 378.0,
-              "y1": 513.6
-            }
-          },
-          {
-            "value": "POD",
-            "confidence": "extracted",
-            "type": "text",
-            "method": "ocr",
-            "coordinates": {
-              "x0": 317.2,
-              "y0": 163.6,
-              "x1": 375.2,
-              "y1": 230.0
-            }
-          },
-          {
-            "value": "ROD",
-            "confidence": "extracted",
-            "type": "text",
-            "method": "ocr",
-            "coordinates": {
-              "x0": 245.6,
-              "y0": 164.8,
-              "x1": 304.4,
-              "y1": 218.4
+              "x0": 241.6,
+              "y0": 402.0,
+              "x1": 308.0,
+              "y1": 513.0
             }
           }
         ],
         "Barcode Number": [
           {
-            "value": "[[[[ 13.803299  45.014523]\n  [ 13.796692   9.014521]\n  [172.1967     8.985477]\n  [172.20331   44.98548 ]]]] 5056598192462",
-            "confidence": "scanned",
-            "type": "barcode_qr",
-            "method": "pyzbar",
+            "value": "EAN13: 5056598192462",
+            "decoded": true,
             "codes": [
-              "[[[[ 13.803299  45.014523]\n  [ 13.796692   9.014521]\n  [172.1967     8.985477]\n  [172.20331   44.98548 ]]]] 5056598192462"
+              {
+                "type": "EAN13",
+                "data": "5056598192462",
+                "quality": "good",
+                "rect": {
+                  "x": 85,
+                  "y": 4,
+                  "width": 68,
+                  "height": 44
+                }
+              }
             ],
+            "method": "pyzbar",
+            "type": "barcode",
             "coordinates": {
-              "x0": 100.33,
-              "y0": 524.67,
-              "x1": 156.67,
+              "x0": 102.0,
+              "y0": 524.4,
+              "x1": 157.0,
               "y1": 548.0
+            }
+          }
+        ],
+        "Net Quantity": [
+          {
+            "value": "10ml",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 169.4,
+              "y0": 458.0,
+              "x1": 236.0,
+              "y1": 474.4
+            }
+          },
+          {
+            "value": "10ml",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 280.6,
+              "y0": 368.4,
+              "x1": 303.4,
+              "y1": 382.0
             }
           }
         ],
         "QR Code": [
           {
-            "value": "No code found",
-            "confidence": "empty",
-            "type": "barcode_qr",
+            "value": "QRCODE: https://qrco.de/bd7ixp",
+            "decoded": true,
+            "codes": [
+              {
+                "type": "QRCODE",
+                "data": "https://qrco.de/bd7ixp",
+                "quality": "good",
+                "rect": {
+                  "x": 22,
+                  "y": 13,
+                  "width": 112,
+                  "height": 112
+                }
+              }
+            ],
             "method": "pyzbar",
-            "codes": [],
+            "type": "barcode",
             "coordinates": {
-              "x0": 319.0,
-              "y0": 395.33,
-              "x1": 372.33,
-              "y1": 444.0
+              "x0": 319.6,
+              "y0": 397.0,
+              "x1": 371.4,
+              "y1": 442.4
+            }
+          }
+        ],
+        "Tagline": [
+          {
+            "value": "X\nMARKS\nTHE\nSPOT",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 312.8,
+              "y0": 237.6,
+              "x1": 378.0,
+              "y1": 327.6
+            }
+          }
+        ],
+        "Brand Message": [
+          {
+            "value": "JOIN THE\nPOD SALT\nFAMILY!",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 319.2,
+              "y0": 341.2,
+              "x1": 371.6,
+              "y1": 394.4
             }
           }
         ]
@@ -2394,10 +2474,10 @@
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 245.6,
-              "y0": 118.0,
-              "x1": 304.8,
-              "y1": 134.0
+              "x0": 245.26,
+              "y0": 114.95,
+              "x1": 304.42,
+              "y1": 134.95
             }
           },
           {
@@ -2406,38 +2486,24 @@
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 241.6,
-              "y0": 336.8,
-              "x1": 302.0,
-              "y1": 361.2
+              "x0": 240.8,
+              "y0": 335.4,
+              "x1": 302.6,
+              "y1": 363.8
             }
           }
         ],
-        "Batch Number": [
-          {
-            "value": "28853-4",
-            "confidence": "extracted",
-            "type": "text",
-            "method": "digital",
-            "coordinates": {
-              "x0": 326.0,
-              "y0": 121.6,
-              "x1": 368.0,
-              "y1": 130.4
-            }
-          }
-        ],
-        "mg/ml": [
+        "Concentration (mg/ml)": [
           {
             "value": "20mg/ml",
             "confidence": "extracted",
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 247.6,
-              "y0": 136.4,
-              "x1": 302.8,
-              "y1": 145.2
+              "x0": 245.26,
+              "y0": 136.42,
+              "x1": 304.63,
+              "y1": 146.53
             }
           },
           {
@@ -2446,10 +2512,24 @@
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 242.4,
-              "y0": 370.0,
-              "x1": 278.0,
-              "y1": 382.4
+              "x0": 240.4,
+              "y0": 368.4,
+              "x1": 278.6,
+              "y1": 381.6
+            }
+          }
+        ],
+        "XyFil Number": [
+          {
+            "value": "28853-4",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 315.37,
+              "y0": 120.42,
+              "x1": 365.68,
+              "y1": 132.42
             }
           }
         ],
@@ -2460,10 +2540,10 @@
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 121.56,
-              "y0": 170.89,
-              "x1": 160.89,
-              "y1": 174.44
+              "x0": 121.2,
+              "y0": 170.2,
+              "x1": 144.2,
+              "y1": 175.0
             }
           }
         ],
@@ -2474,38 +2554,38 @@
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 121.33,
-              "y0": 175.33,
-              "x1": 163.56,
-              "y1": 190.89
+              "x0": 121.8,
+              "y0": 175.2,
+              "x1": 164.4,
+              "y1": 190.0
             }
           }
         ],
         "Ingredients": [
           {
-            "value": "Ingredients: Vegetable \nGlycerine (50%), Propylene \nGlycol (50%), Mango Flavouring, \nPeach Flavouring, Artiﬁcial \nSweetener, 36mg/ml Nicotine \nSalt (2% Nicotine).",
+            "value": "D\nT\ni if\nll\nd\nIngredients: Vegetable \nGlycerine (50%), Propylene \nGlycol (50%), Mango Flavouring, \nPeach Flavouring, Artiﬁcial \nSweetener, 36mg/ml Nicotine \nSalt (2% Nicotine).",
             "confidence": "extracted",
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 96.44,
-              "y0": 194.44,
-              "x1": 164.67,
-              "y1": 226.89
+              "x0": 97.8,
+              "y0": 194.6,
+              "x1": 164.4,
+              "y1": 230.2
             }
           }
         ],
         "Danger Text": [
           {
-            "value": "Danger: Toxic if swallowed. \nFatal in contact with skin. \nMay cause an allergic skin \nreaction. Harmful if inhaled. \nHarmful to aquatic life with \nlong lasting eﬀects. Keep out of \nreach of children. Do not get in \neyes, on skin, or on clothing. Use \nonly outdoors or in a \nwell-ventilated area. Wear \nprotective gloves. IF \nSWALLOWED: Immediately call a \ndoctor. Dispose of \ncontents/container to hazardous \nor special waste collection point, \nin accordance with local, \nregional, national and/or",
+            "value": "Danger: Toxic if swallowed. \nFatal in contact with skin. \nMay cause an allergic skin \nreaction. Harmful if inhaled. \nHarmful to aquatic life with \nlong lasting eﬀects. Keep out of \nreach of children. Do not get in \neyes, on skin, or on clothing. Use \nonly outdoors or in a \nwell-ventilated area. Wear \nprotective gloves. IF \nSWALLOWED: Immediately call a \ndoctor. Dispose of \ncontents/container to hazardous \nor special waste collection point, \nin accordance with local, \nregional, national and/or \ninternational regulation.",
             "confidence": "extracted",
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 96.89,
-              "y0": 229.33,
-              "x1": 163.78,
-              "y1": 306.0
+              "x0": 98.8,
+              "y0": 230.8,
+              "x1": 163.4,
+              "y1": 314.0
             }
           }
         ],
@@ -2516,10 +2596,10 @@
             "image_count": 1,
             "type": "image",
             "coordinates": {
-              "x0": 95.78,
-              "y0": 312.89,
-              "x1": 164.44,
-              "y1": 382.22
+              "x0": 98.2,
+              "y0": 314.8,
+              "x1": 165.2,
+              "y1": 382.4
             }
           }
         ],
@@ -2530,10 +2610,10 @@
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 98.44,
-              "y0": 386.22,
-              "x1": 155.33,
-              "y1": 391.33
+              "x0": 96.2,
+              "y0": 384.4,
+              "x1": 165.2,
+              "y1": 391.2
             }
           }
         ],
@@ -2544,134 +2624,144 @@
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 98.0,
-              "y0": 391.56,
-              "x1": 156.44,
-              "y1": 397.33
+              "x0": 96.2,
+              "y0": 392.0,
+              "x1": 165.2,
+              "y1": 397.4
             }
           }
         ],
-        "Warning Text1": [
+        "Warning Text": [
           {
             "value": "This \nproduct \ncontains \nnicotine \nwhich is a \nhighly \naddictive \nsubstance.",
             "confidence": "extracted",
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 97.78,
-              "y0": 402.44,
-              "x1": 161.56,
-              "y1": 511.78
+              "x0": 97.0,
+              "y0": 401.4,
+              "x1": 164.4,
+              "y1": 512.2
             }
-          }
-        ],
-        "Warning Text2": [
+          },
           {
             "value": "This \nproduct \ncontains \nnicotine \nwhich is a \nhighly \naddictive \nsubstance.",
             "confidence": "extracted",
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 241.56,
-              "y0": 402.44,
-              "x1": 308.44,
-              "y1": 512.22
-            }
-          }
-        ],
-        "Volume": [
-          {
-            "value": "10ml",
-            "confidence": "extracted",
-            "type": "text",
-            "method": "digital",
-            "coordinates": {
-              "x0": 280.36,
-              "y0": 369.09,
-              "x1": 298.91,
-              "y1": 381.82
-            }
-          },
-          {
-            "value": "10ml",
-            "confidence": "extracted",
-            "type": "text",
-            "method": "digital",
-            "coordinates": {
-              "x0": 172.8,
-              "y0": 457.6,
-              "x1": 234.4,
-              "y1": 474.0
-            }
-          }
-        ],
-        "Extra Text": [
-          {
-            "value": "",
-            "confidence": "empty",
-            "type": "text",
-            "method": "ocr",
-            "coordinates": {
-              "x0": 315.2,
-              "y0": 456.0,
-              "x1": 378.0,
-              "y1": 513.6
-            }
-          },
-          {
-            "value": "POD",
-            "confidence": "extracted",
-            "type": "text",
-            "method": "ocr",
-            "coordinates": {
-              "x0": 317.2,
-              "y0": 163.6,
-              "x1": 375.2,
-              "y1": 230.0
-            }
-          },
-          {
-            "value": "[EX@D)",
-            "confidence": "extracted",
-            "type": "text",
-            "method": "ocr",
-            "coordinates": {
-              "x0": 245.6,
-              "y0": 164.8,
-              "x1": 304.4,
-              "y1": 218.4
+              "x0": 241.6,
+              "y0": 402.0,
+              "x1": 308.0,
+              "y1": 513.0
             }
           }
         ],
         "Barcode Number": [
           {
-            "value": "[[[[ 13.803299  45.014523]\n  [ 13.796692   9.014521]\n  [172.1967     8.985477]\n  [172.20331   44.98548 ]]]] 5056598210029",
-            "confidence": "scanned",
-            "type": "barcode_qr",
-            "method": "pyzbar",
+            "value": "EAN13: 5056598210029",
+            "decoded": true,
             "codes": [
-              "[[[[ 13.803299  45.014523]\n  [ 13.796692   9.014521]\n  [172.1967     8.985477]\n  [172.20331   44.98548 ]]]] 5056598210029"
+              {
+                "type": "EAN13",
+                "data": "5056598210029",
+                "quality": "good",
+                "rect": {
+                  "x": 85,
+                  "y": 4,
+                  "width": 68,
+                  "height": 44
+                }
+              }
             ],
+            "method": "pyzbar",
+            "type": "barcode",
             "coordinates": {
-              "x0": 100.33,
-              "y0": 524.67,
-              "x1": 156.67,
+              "x0": 102.0,
+              "y0": 524.4,
+              "x1": 157.0,
               "y1": 548.0
+            }
+          }
+        ],
+        "Net Quantity": [
+          {
+            "value": "10ml",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 169.4,
+              "y0": 458.0,
+              "x1": 236.0,
+              "y1": 474.4
+            }
+          },
+          {
+            "value": "10ml",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 280.6,
+              "y0": 368.4,
+              "x1": 303.4,
+              "y1": 382.0
             }
           }
         ],
         "QR Code": [
           {
-            "value": "No code found",
-            "confidence": "empty",
-            "type": "barcode_qr",
+            "value": "QRCODE: https://qrco.de/bd7ixp",
+            "decoded": true,
+            "codes": [
+              {
+                "type": "QRCODE",
+                "data": "https://qrco.de/bd7ixp",
+                "quality": "good",
+                "rect": {
+                  "x": 22,
+                  "y": 13,
+                  "width": 112,
+                  "height": 112
+                }
+              }
+            ],
             "method": "pyzbar",
-            "codes": [],
+            "type": "barcode",
             "coordinates": {
-              "x0": 319.0,
-              "y0": 395.33,
-              "x1": 372.33,
-              "y1": 444.0
+              "x0": 319.6,
+              "y0": 397.0,
+              "x1": 371.4,
+              "y1": 442.4
+            }
+          }
+        ],
+        "Tagline": [
+          {
+            "value": "X\nMARKS\nTHE\nSPOT",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 312.8,
+              "y0": 237.6,
+              "x1": 378.0,
+              "y1": 327.6
+            }
+          }
+        ],
+        "Brand Message": [
+          {
+            "value": "JOIN THE\nPOD SALT\nFAMILY!",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 319.2,
+              "y0": 341.2,
+              "x1": 371.6,
+              "y1": 394.4
             }
           }
         ]
@@ -2691,10 +2781,10 @@
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 245.6,
-              "y0": 118.0,
-              "x1": 304.8,
-              "y1": 134.0
+              "x0": 245.26,
+              "y0": 114.95,
+              "x1": 304.42,
+              "y1": 134.95
             }
           },
           {
@@ -2703,38 +2793,24 @@
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 241.6,
-              "y0": 336.8,
-              "x1": 302.0,
-              "y1": 361.2
+              "x0": 240.8,
+              "y0": 335.4,
+              "x1": 302.6,
+              "y1": 363.8
             }
           }
         ],
-        "Batch Number": [
-          {
-            "value": "28856-4",
-            "confidence": "extracted",
-            "type": "text",
-            "method": "digital",
-            "coordinates": {
-              "x0": 326.0,
-              "y0": 121.6,
-              "x1": 368.0,
-              "y1": 130.4
-            }
-          }
-        ],
-        "mg/ml": [
+        "Concentration (mg/ml)": [
           {
             "value": "20mg/ml",
             "confidence": "extracted",
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 247.6,
-              "y0": 136.4,
-              "x1": 302.8,
-              "y1": 145.2
+              "x0": 245.26,
+              "y0": 136.42,
+              "x1": 304.63,
+              "y1": 146.53
             }
           },
           {
@@ -2743,10 +2819,24 @@
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 242.4,
-              "y0": 370.0,
-              "x1": 278.0,
-              "y1": 382.4
+              "x0": 240.4,
+              "y0": 368.4,
+              "x1": 278.6,
+              "y1": 381.6
+            }
+          }
+        ],
+        "XyFil Number": [
+          {
+            "value": "28856-4",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 315.37,
+              "y0": 120.42,
+              "x1": 365.68,
+              "y1": 132.42
             }
           }
         ],
@@ -2757,10 +2847,10 @@
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 121.56,
-              "y0": 170.89,
-              "x1": 160.89,
-              "y1": 174.44
+              "x0": 121.2,
+              "y0": 170.2,
+              "x1": 144.2,
+              "y1": 175.0
             }
           }
         ],
@@ -2771,10 +2861,10 @@
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 121.33,
-              "y0": 175.33,
-              "x1": 163.56,
-              "y1": 190.89
+              "x0": 121.8,
+              "y0": 175.2,
+              "x1": 164.4,
+              "y1": 190.0
             }
           }
         ],
@@ -2785,24 +2875,24 @@
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 96.44,
-              "y0": 194.44,
-              "x1": 164.67,
-              "y1": 226.89
+              "x0": 97.8,
+              "y0": 194.6,
+              "x1": 164.4,
+              "y1": 230.2
             }
           }
         ],
         "Danger Text": [
           {
-            "value": "Danger: Toxic if swallowed. \nFatal in contact with skin. \nMay cause an allergic skin \nreaction. Harmful if inhaled. \nHarmful to aquatic life with \nlong lasting eﬀects. Keep out of \nreach of children. Do not get in \neyes, on skin, or on clothing. Use \nonly outdoors or in a \nwell-ventilated area. Wear \nprotective gloves. IF \nSWALLOWED: Immediately call a \ndoctor. Dispose of \ncontents/container to hazardous \nor special waste collection point, \nin accordance with local, \nregional national and/or",
+            "value": "Danger: Toxic if swallowed. \nFatal in contact with skin. \nMay cause an allergic skin \nreaction. Harmful if inhaled. \nHarmful to aquatic life with \nlong lasting eﬀects. Keep out of \nreach of children. Do not get in \neyes, on skin, or on clothing. Use \nonly outdoors or in a \nwell-ventilated area. Wear \nprotective gloves. IF \nSWALLOWED: Immediately call a \ndoctor. Dispose of \ncontents/container to hazardous \nor special waste collection point, \nin accordance with local, \nregional, national and/or \ninternational regulation.",
             "confidence": "extracted",
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 96.89,
-              "y0": 229.33,
-              "x1": 163.78,
-              "y1": 306.0
+              "x0": 98.8,
+              "y0": 230.8,
+              "x1": 163.4,
+              "y1": 314.0
             }
           }
         ],
@@ -2813,10 +2903,10 @@
             "image_count": 1,
             "type": "image",
             "coordinates": {
-              "x0": 95.78,
-              "y0": 312.89,
-              "x1": 164.44,
-              "y1": 382.22
+              "x0": 98.2,
+              "y0": 314.8,
+              "x1": 165.2,
+              "y1": 382.4
             }
           }
         ],
@@ -2827,10 +2917,10 @@
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 98.44,
-              "y0": 386.22,
-              "x1": 155.33,
-              "y1": 391.33
+              "x0": 96.2,
+              "y0": 384.4,
+              "x1": 165.2,
+              "y1": 391.2
             }
           }
         ],
@@ -2841,134 +2931,144 @@
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 98.0,
-              "y0": 391.56,
-              "x1": 156.44,
-              "y1": 397.33
+              "x0": 96.2,
+              "y0": 392.0,
+              "x1": 165.2,
+              "y1": 397.4
             }
           }
         ],
-        "Warning Text1": [
+        "Warning Text": [
           {
             "value": "This \nproduct \ncontains \nnicotine \nwhich is a \nhighly \naddictive \nsubstance.",
             "confidence": "extracted",
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 97.78,
-              "y0": 402.44,
-              "x1": 161.56,
-              "y1": 511.78
+              "x0": 97.0,
+              "y0": 401.4,
+              "x1": 164.4,
+              "y1": 512.2
             }
-          }
-        ],
-        "Warning Text2": [
+          },
           {
             "value": "This \nproduct \ncontains \nnicotine \nwhich is a \nhighly \naddictive \nsubstance.",
             "confidence": "extracted",
             "type": "text",
             "method": "digital",
             "coordinates": {
-              "x0": 241.56,
-              "y0": 402.44,
-              "x1": 308.44,
-              "y1": 512.22
-            }
-          }
-        ],
-        "Volume": [
-          {
-            "value": "10ml",
-            "confidence": "extracted",
-            "type": "text",
-            "method": "digital",
-            "coordinates": {
-              "x0": 280.36,
-              "y0": 369.09,
-              "x1": 298.91,
-              "y1": 381.82
-            }
-          },
-          {
-            "value": "10ml",
-            "confidence": "extracted",
-            "type": "text",
-            "method": "digital",
-            "coordinates": {
-              "x0": 172.8,
-              "y0": 457.6,
-              "x1": 234.4,
-              "y1": 474.0
-            }
-          }
-        ],
-        "Extra Text": [
-          {
-            "value": "",
-            "confidence": "empty",
-            "type": "text",
-            "method": "ocr",
-            "coordinates": {
-              "x0": 315.2,
-              "y0": 456.0,
-              "x1": 378.0,
-              "y1": 513.6
-            }
-          },
-          {
-            "value": "ROD",
-            "confidence": "extracted",
-            "type": "text",
-            "method": "ocr",
-            "coordinates": {
-              "x0": 317.2,
-              "y0": 163.6,
-              "x1": 375.2,
-              "y1": 230.0
-            }
-          },
-          {
-            "value": "PX)",
-            "confidence": "extracted",
-            "type": "text",
-            "method": "ocr",
-            "coordinates": {
-              "x0": 245.6,
-              "y0": 164.8,
-              "x1": 304.4,
-              "y1": 218.4
+              "x0": 241.6,
+              "y0": 402.0,
+              "x1": 308.0,
+              "y1": 513.0
             }
           }
         ],
         "Barcode Number": [
           {
-            "value": "[[[[ 13.803299  45.014523]\n  [ 13.796692   9.014521]\n  [172.1967     8.985477]\n  [172.20331   44.98548 ]]]] 5056598210050",
-            "confidence": "scanned",
-            "type": "barcode_qr",
-            "method": "pyzbar",
+            "value": "EAN13: 5056598210050",
+            "decoded": true,
             "codes": [
-              "[[[[ 13.803299  45.014523]\n  [ 13.796692   9.014521]\n  [172.1967     8.985477]\n  [172.20331   44.98548 ]]]] 5056598210050"
+              {
+                "type": "EAN13",
+                "data": "5056598210050",
+                "quality": "good",
+                "rect": {
+                  "x": 85,
+                  "y": 4,
+                  "width": 68,
+                  "height": 44
+                }
+              }
             ],
+            "method": "pyzbar",
+            "type": "barcode",
             "coordinates": {
-              "x0": 100.33,
-              "y0": 524.67,
-              "x1": 156.67,
+              "x0": 102.0,
+              "y0": 524.4,
+              "x1": 157.0,
               "y1": 548.0
+            }
+          }
+        ],
+        "Net Quantity": [
+          {
+            "value": "10ml",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 169.4,
+              "y0": 458.0,
+              "x1": 236.0,
+              "y1": 474.4
+            }
+          },
+          {
+            "value": "10ml",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 280.6,
+              "y0": 368.4,
+              "x1": 303.4,
+              "y1": 382.0
             }
           }
         ],
         "QR Code": [
           {
-            "value": "No code found",
-            "confidence": "empty",
-            "type": "barcode_qr",
+            "value": "QRCODE: https://qrco.de/bd7ixp",
+            "decoded": true,
+            "codes": [
+              {
+                "type": "QRCODE",
+                "data": "https://qrco.de/bd7ixp",
+                "quality": "good",
+                "rect": {
+                  "x": 22,
+                  "y": 13,
+                  "width": 112,
+                  "height": 112
+                }
+              }
+            ],
             "method": "pyzbar",
-            "codes": [],
+            "type": "barcode",
             "coordinates": {
-              "x0": 319.0,
-              "y0": 395.33,
-              "x1": 372.33,
-              "y1": 444.0
+              "x0": 319.6,
+              "y0": 397.0,
+              "x1": 371.4,
+              "y1": 442.4
+            }
+          }
+        ],
+        "Tagline": [
+          {
+            "value": "X\nMARKS\nTHE\nSPOT",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 312.8,
+              "y0": 237.6,
+              "x1": 378.0,
+              "y1": 327.6
+            }
+          }
+        ],
+        "Brand Message": [
+          {
+            "value": "JOIN THE\nPOD SALT\nFAMILY!",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 319.2,
+              "y0": 341.2,
+              "x1": 371.6,
+              "y1": 394.4
             }
           }
         ]
