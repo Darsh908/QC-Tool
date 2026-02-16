@@ -1,0 +1,2978 @@
+{
+  "source_pdf": "data.pdf",
+  "template_used": "input.pdf",
+  "extraction_date": "2026-02-13T18:37:54.262361",
+  "total_pages": 10,
+  "pages": [
+    {
+      "page_number": 1,
+      "page_dimensions": {
+        "width": 434.5039978027344,
+        "height": 675.448974609375
+      },
+      "fields": {
+        "Product Name": [
+          {
+            "value": "MR BLUE",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 245.6,
+              "y0": 118.0,
+              "x1": 304.8,
+              "y1": 134.0
+            }
+          },
+          {
+            "value": "MR\nBLUE",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 241.6,
+              "y0": 336.8,
+              "x1": 302.0,
+              "y1": 361.2
+            }
+          }
+        ],
+        "Batch Number": [
+          {
+            "value": "28868-4",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 326.0,
+              "y0": 121.6,
+              "x1": 368.0,
+              "y1": 130.4
+            }
+          }
+        ],
+        "mg/ml": [
+          {
+            "value": "20mg/ml",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 247.6,
+              "y0": 136.4,
+              "x1": 302.8,
+              "y1": 145.2
+            }
+          },
+          {
+            "value": "20mg/ml",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 242.4,
+              "y0": 370.0,
+              "x1": 278.0,
+              "y1": 382.4
+            }
+          }
+        ],
+        "Manufacturer Name": [
+          {
+            "value": "Pod Salt Ltd.",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 121.56,
+              "y0": 170.89,
+              "x1": 160.89,
+              "y1": 174.44
+            }
+          }
+        ],
+        "Manufacturer Address": [
+          {
+            "value": "15-19 Sedgwick Street,\nPreston, PR1 1TP, UK.\nTel: +44 (0) 1772 888 778\nWebsite: www.podsalt.com",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 121.33,
+              "y0": 175.33,
+              "x1": 163.56,
+              "y1": 190.89
+            }
+          }
+        ],
+        "Ingredients": [
+          {
+            "value": "Ingredients: Vegetable \nGlycerine (50%), Propylene \nGlycol (50%), Blueberry \nFlavouring, Artiﬁcial Sweetener, \n36mg/ml Nicotine Salt (2% \nNicotine).",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 96.44,
+              "y0": 194.44,
+              "x1": 164.67,
+              "y1": 226.89
+            }
+          }
+        ],
+        "Danger Text": [
+          {
+            "value": "Danger: Toxic if swallowed. \nFatal in contact with skin. \nHarmful if inhaled. Harmful to \naquatic life with long lasting \neﬀects. Keep out of reach of \nchildren. Do not get in eyes, on \nskin, or on clothing. Use only \noutdoors or in a well-ventilated \narea. Wear protective gloves. IF \nSWALLOWED: Immediately call a \ndoctor. Dispose of \ncontents/container to hazardous \nor special waste collection point, \nin accordance with local, \nregional, national and/or \ninternational regulation.",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 96.89,
+              "y0": 229.33,
+              "x1": 163.78,
+              "y1": 306.0
+            }
+          }
+        ],
+        "Danger Images": [
+          {
+            "value": "1 image(s) found",
+            "has_images": true,
+            "image_count": 1,
+            "type": "image",
+            "coordinates": {
+              "x0": 95.78,
+              "y0": 312.89,
+              "x1": 164.44,
+              "y1": 382.22
+            }
+          }
+        ],
+        "UFI": [
+          {
+            "value": "UFI: 46XJ-605V-CFAD-6QV0",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 98.44,
+              "y0": 386.22,
+              "x1": 155.33,
+              "y1": 391.33
+            }
+          }
+        ],
+        "ECID": [
+          {
+            "value": "ECID: 00062-24-02480",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 98.0,
+              "y0": 391.56,
+              "x1": 156.44,
+              "y1": 397.33
+            }
+          }
+        ],
+        "Warning Text1": [
+          {
+            "value": "This \nproduct \ncontains \nnicotine \nwhich is a \nhighly \naddictive \nsubstance.",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 97.78,
+              "y0": 402.44,
+              "x1": 161.56,
+              "y1": 511.78
+            }
+          }
+        ],
+        "Warning Text2": [
+          {
+            "value": "This \nproduct \ncontains \nnicotine \nwhich is a \nhighly \naddictive \nsubstance.",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 241.56,
+              "y0": 402.44,
+              "x1": 308.44,
+              "y1": 512.22
+            }
+          }
+        ],
+        "Volume": [
+          {
+            "value": "10ml",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 280.36,
+              "y0": 369.09,
+              "x1": 298.91,
+              "y1": 381.82
+            }
+          },
+          {
+            "value": "10ml",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 172.8,
+              "y0": 457.6,
+              "x1": 234.4,
+              "y1": 474.0
+            }
+          }
+        ],
+        "Extra Text": [
+          {
+            "value": "",
+            "confidence": "empty",
+            "type": "text",
+            "method": "ocr",
+            "coordinates": {
+              "x0": 315.2,
+              "y0": 456.0,
+              "x1": 378.0,
+              "y1": 513.6
+            }
+          },
+          {
+            "value": "POD",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "ocr",
+            "coordinates": {
+              "x0": 317.2,
+              "y0": 163.6,
+              "x1": 375.2,
+              "y1": 230.0
+            }
+          },
+          {
+            "value": "PXO)D)\n» Sx",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "ocr",
+            "coordinates": {
+              "x0": 245.6,
+              "y0": 164.8,
+              "x1": 304.4,
+              "y1": 218.4
+            }
+          }
+        ],
+        "Barcode Number": [
+          {
+            "value": "[[[[ 13.803299  45.014523]\n  [ 13.796692   9.014521]\n  [172.1967     8.985477]\n  [172.20331   44.98548 ]]]] 5056598192370",
+            "confidence": "scanned",
+            "type": "barcode_qr",
+            "method": "pyzbar",
+            "codes": [
+              "[[[[ 13.803299  45.014523]\n  [ 13.796692   9.014521]\n  [172.1967     8.985477]\n  [172.20331   44.98548 ]]]] 5056598192370"
+            ],
+            "coordinates": {
+              "x0": 100.33,
+              "y0": 524.67,
+              "x1": 156.67,
+              "y1": 548.0
+            }
+          }
+        ],
+        "QR Code": [
+          {
+            "value": "No code found",
+            "confidence": "empty",
+            "type": "barcode_qr",
+            "method": "pyzbar",
+            "codes": [],
+            "coordinates": {
+              "x0": 319.0,
+              "y0": 395.33,
+              "x1": 372.33,
+              "y1": 444.0
+            }
+          }
+        ]
+      }
+    },
+    {
+      "page_number": 2,
+      "page_dimensions": {
+        "width": 434.5039978027344,
+        "height": 675.448974609375
+      },
+      "fields": {
+        "Product Name": [
+          {
+            "value": "WHITE\nCHOCOLATE\nMOCHA",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 245.6,
+              "y0": 118.0,
+              "x1": 304.8,
+              "y1": 134.0
+            }
+          },
+          {
+            "value": "WHITE\nCHOCOLATE\nMOCHA",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 241.6,
+              "y0": 336.8,
+              "x1": 302.0,
+              "y1": 361.2
+            }
+          }
+        ],
+        "Batch Number": [
+          {
+            "value": "28859-4",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 326.0,
+              "y0": 121.6,
+              "x1": 368.0,
+              "y1": 130.4
+            }
+          }
+        ],
+        "mg/ml": [
+          {
+            "value": "20mg/ml",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 247.6,
+              "y0": 136.4,
+              "x1": 302.8,
+              "y1": 145.2
+            }
+          },
+          {
+            "value": "20mg/ml",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 242.4,
+              "y0": 370.0,
+              "x1": 278.0,
+              "y1": 382.4
+            }
+          }
+        ],
+        "Manufacturer Name": [
+          {
+            "value": "Pod Salt Ltd.",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 121.56,
+              "y0": 170.89,
+              "x1": 160.89,
+              "y1": 174.44
+            }
+          }
+        ],
+        "Manufacturer Address": [
+          {
+            "value": "15-19 Sedgwick Street,\nPreston, PR1 1TP, UK.\nTel: +44 (0) 1772 888 778\nWebsite: www.podsalt.com",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 121.33,
+              "y0": 175.33,
+              "x1": 163.56,
+              "y1": 190.89
+            }
+          }
+        ],
+        "Ingredients": [
+          {
+            "value": "Ingredients: Vegetable Glycerine \n(50%), Propylene Glycol (50%), \nWhite Chocolate Flavouring, \nCoﬀee Flavouring, Artiﬁcial \nSweetener, 36mg/ml Nicotine Salt \n(2% Nicotine). Contains: Furaneol. \nMay produce an allergic reaction.",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 96.44,
+              "y0": 194.44,
+              "x1": 164.67,
+              "y1": 226.89
+            }
+          }
+        ],
+        "Danger Text": [
+          {
+            "value": "Danger: Toxic if swallowed. \nFatal in contact with skin. \nHarmful if inhaled. Harmful to \naquatic life with long lasting \neﬀects. Keep out of reach of \nchildren. Do not get in eyes, on \nskin, or on clothing. Use only \noutdoors or in a well-ventilated \narea. Wear protective gloves. IF \nSWALLOWED: Immediately call a \ndoctor. Dispose of \ncontents/container to hazardous \nor special waste collection point, \nin accordance with local, \nregional, national and/or",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 96.89,
+              "y0": 229.33,
+              "x1": 163.78,
+              "y1": 306.0
+            }
+          }
+        ],
+        "Danger Images": [
+          {
+            "value": "1 image(s) found",
+            "has_images": true,
+            "image_count": 1,
+            "type": "image",
+            "coordinates": {
+              "x0": 95.78,
+              "y0": 312.89,
+              "x1": 164.44,
+              "y1": 382.22
+            }
+          }
+        ],
+        "UFI": [
+          {
+            "value": "UFI: 2EA3-N9PW-85F7-K6D8",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 98.44,
+              "y0": 386.22,
+              "x1": 155.33,
+              "y1": 391.33
+            }
+          }
+        ],
+        "ECID": [
+          {
+            "value": "ECID: 00062-22-01638",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 98.0,
+              "y0": 391.56,
+              "x1": 156.44,
+              "y1": 397.33
+            }
+          }
+        ],
+        "Warning Text1": [
+          {
+            "value": "This \nproduct \ncontains \nnicotine \nwhich is a \nhighly \naddictive \nsubstance.",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 97.78,
+              "y0": 402.44,
+              "x1": 161.56,
+              "y1": 511.78
+            }
+          }
+        ],
+        "Warning Text2": [
+          {
+            "value": "This \nproduct \ncontains \nnicotine \nwhich is a \nhighly \naddictive \nsubstance.",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 241.56,
+              "y0": 402.44,
+              "x1": 308.44,
+              "y1": 512.22
+            }
+          }
+        ],
+        "Volume": [
+          {
+            "value": "10ml",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 280.36,
+              "y0": 369.09,
+              "x1": 298.91,
+              "y1": 381.82
+            }
+          },
+          {
+            "value": "10ml",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 172.8,
+              "y0": 457.6,
+              "x1": 234.4,
+              "y1": 474.0
+            }
+          }
+        ],
+        "Extra Text": [
+          {
+            "value": "",
+            "confidence": "empty",
+            "type": "text",
+            "method": "ocr",
+            "coordinates": {
+              "x0": 315.2,
+              "y0": 456.0,
+              "x1": 378.0,
+              "y1": 513.6
+            }
+          },
+          {
+            "value": "POD",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "ocr",
+            "coordinates": {
+              "x0": 317.2,
+              "y0": 163.6,
+              "x1": 375.2,
+              "y1": 230.0
+            }
+          },
+          {
+            "value": "ROD",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "ocr",
+            "coordinates": {
+              "x0": 245.6,
+              "y0": 164.8,
+              "x1": 304.4,
+              "y1": 218.4
+            }
+          }
+        ],
+        "Barcode Number": [
+          {
+            "value": "[[[[ 13.803299  45.014523]\n  [ 13.796692   9.014521]\n  [172.1967     8.985477]\n  [172.20331   44.98548 ]]]] 5056168808885",
+            "confidence": "scanned",
+            "type": "barcode_qr",
+            "method": "pyzbar",
+            "codes": [
+              "[[[[ 13.803299  45.014523]\n  [ 13.796692   9.014521]\n  [172.1967     8.985477]\n  [172.20331   44.98548 ]]]] 5056168808885"
+            ],
+            "coordinates": {
+              "x0": 100.33,
+              "y0": 524.67,
+              "x1": 156.67,
+              "y1": 548.0
+            }
+          }
+        ],
+        "QR Code": [
+          {
+            "value": "No code found",
+            "confidence": "empty",
+            "type": "barcode_qr",
+            "method": "pyzbar",
+            "codes": [],
+            "coordinates": {
+              "x0": 319.0,
+              "y0": 395.33,
+              "x1": 372.33,
+              "y1": 444.0
+            }
+          }
+        ]
+      }
+    },
+    {
+      "page_number": 3,
+      "page_dimensions": {
+        "width": 434.5039978027344,
+        "height": 675.448974609375
+      },
+      "fields": {
+        "Product Name": [
+          {
+            "value": "STRAWBERRY\nLYCHEE",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 245.6,
+              "y0": 118.0,
+              "x1": 304.8,
+              "y1": 134.0
+            }
+          },
+          {
+            "value": "STRAWBERRY\nLYCHEE",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 241.6,
+              "y0": 336.8,
+              "x1": 302.0,
+              "y1": 361.2
+            }
+          }
+        ],
+        "Batch Number": [
+          {
+            "value": "28877-4",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 326.0,
+              "y0": 121.6,
+              "x1": 368.0,
+              "y1": 130.4
+            }
+          }
+        ],
+        "mg/ml": [
+          {
+            "value": "20mg/ml",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 247.6,
+              "y0": 136.4,
+              "x1": 302.8,
+              "y1": 145.2
+            }
+          },
+          {
+            "value": "20mg/ml",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 242.4,
+              "y0": 370.0,
+              "x1": 278.0,
+              "y1": 382.4
+            }
+          }
+        ],
+        "Manufacturer Name": [
+          {
+            "value": "Pod Salt Ltd.",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 121.56,
+              "y0": 170.89,
+              "x1": 160.89,
+              "y1": 174.44
+            }
+          }
+        ],
+        "Manufacturer Address": [
+          {
+            "value": "15-19 Sedgwick Street,\nPreston, PR1 1TP, UK.\nTel: +44 (0) 1772 888 778\nWebsite: www.podsalt.com",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 121.33,
+              "y0": 175.33,
+              "x1": 163.56,
+              "y1": 190.89
+            }
+          }
+        ],
+        "Ingredients": [
+          {
+            "value": "Ingredients: Vegetable \nGlycerine (50%), Propylene \nGlycol (50%), Strawberry \nFlavouring, Lychee Flavouring, \nArtiﬁcial Sweetener, 36mg/ml \nNicotine Salt (2% Nicotine).",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 96.44,
+              "y0": 194.44,
+              "x1": 164.67,
+              "y1": 226.89
+            }
+          }
+        ],
+        "Danger Text": [
+          {
+            "value": "Danger: Toxic if swallowed. \nFatal in contact with skin. \nHarmful if inhaled. Harmful to \naquatic life with long lasting \neﬀects. Keep out of reach of \nchildren. Do not get in eyes, on \nskin, or on clothing. Use only \noutdoors or in a well-ventilated \narea. Wear protective gloves. IF \nSWALLOWED: Immediately call a \ndoctor. Dispose of \ncontents/container to hazardous \nor special waste collection point, \nin accordance with local, \nregional, national and/or \ninternational regulation.",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 96.89,
+              "y0": 229.33,
+              "x1": 163.78,
+              "y1": 306.0
+            }
+          }
+        ],
+        "Danger Images": [
+          {
+            "value": "1 image(s) found",
+            "has_images": true,
+            "image_count": 1,
+            "type": "image",
+            "coordinates": {
+              "x0": 95.78,
+              "y0": 312.89,
+              "x1": 164.44,
+              "y1": 382.22
+            }
+          }
+        ],
+        "UFI": [
+          {
+            "value": "UFI: C312-PM73-W9DG-384J",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 98.44,
+              "y0": 386.22,
+              "x1": 155.33,
+              "y1": 391.33
+            }
+          }
+        ],
+        "ECID": [
+          {
+            "value": "ECID: 00062-24-02495",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 98.0,
+              "y0": 391.56,
+              "x1": 156.44,
+              "y1": 397.33
+            }
+          }
+        ],
+        "Warning Text1": [
+          {
+            "value": "This \nproduct \ncontains \nnicotine \nwhich is a \nhighly \naddictive \nsubstance.",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 97.78,
+              "y0": 402.44,
+              "x1": 161.56,
+              "y1": 511.78
+            }
+          }
+        ],
+        "Warning Text2": [
+          {
+            "value": "This \nproduct \ncontains \nnicotine \nwhich is a \nhighly \naddictive \nsubstance.",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 241.56,
+              "y0": 402.44,
+              "x1": 308.44,
+              "y1": 512.22
+            }
+          }
+        ],
+        "Volume": [
+          {
+            "value": "10ml",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 280.36,
+              "y0": 369.09,
+              "x1": 298.91,
+              "y1": 381.82
+            }
+          },
+          {
+            "value": "10ml",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 172.8,
+              "y0": 457.6,
+              "x1": 234.4,
+              "y1": 474.0
+            }
+          }
+        ],
+        "Extra Text": [
+          {
+            "value": "NEXUS\nNEXUS\nNEXUS",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "ocr",
+            "coordinates": {
+              "x0": 315.2,
+              "y0": 456.0,
+              "x1": 378.0,
+              "y1": 513.6
+            }
+          },
+          {
+            "value": "2©))",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "ocr",
+            "coordinates": {
+              "x0": 317.2,
+              "y0": 163.6,
+              "x1": 375.2,
+              "y1": 230.0
+            }
+          },
+          {
+            "value": "POD\nsh",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "ocr",
+            "coordinates": {
+              "x0": 245.6,
+              "y0": 164.8,
+              "x1": 304.4,
+              "y1": 218.4
+            }
+          }
+        ],
+        "Barcode Number": [
+          {
+            "value": "[[[[ 13.803299  45.014523]\n  [ 13.796692   9.014521]\n  [172.1967     8.985477]\n  [172.20331   44.98548 ]]]] 5056598132420",
+            "confidence": "scanned",
+            "type": "barcode_qr",
+            "method": "pyzbar",
+            "codes": [
+              "[[[[ 13.803299  45.014523]\n  [ 13.796692   9.014521]\n  [172.1967     8.985477]\n  [172.20331   44.98548 ]]]] 5056598132420"
+            ],
+            "coordinates": {
+              "x0": 100.33,
+              "y0": 524.67,
+              "x1": 156.67,
+              "y1": 548.0
+            }
+          }
+        ],
+        "QR Code": [
+          {
+            "value": "No code found",
+            "confidence": "empty",
+            "type": "barcode_qr",
+            "method": "pyzbar",
+            "codes": [],
+            "coordinates": {
+              "x0": 319.0,
+              "y0": 395.33,
+              "x1": 372.33,
+              "y1": 444.0
+            }
+          }
+        ]
+      }
+    },
+    {
+      "page_number": 4,
+      "page_dimensions": {
+        "width": 434.5039978027344,
+        "height": 675.448974609375
+      },
+      "fields": {
+        "Product Name": [
+          {
+            "value": "BLUEBERRY\nLEMONADE",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 245.6,
+              "y0": 118.0,
+              "x1": 304.8,
+              "y1": 134.0
+            }
+          },
+          {
+            "value": "BLUEBERRY\nLEMONADE",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 241.6,
+              "y0": 336.8,
+              "x1": 302.0,
+              "y1": 361.2
+            }
+          }
+        ],
+        "Batch Number": [
+          {
+            "value": "28862-4",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 326.0,
+              "y0": 121.6,
+              "x1": 368.0,
+              "y1": 130.4
+            }
+          }
+        ],
+        "mg/ml": [
+          {
+            "value": "20mg/ml",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 247.6,
+              "y0": 136.4,
+              "x1": 302.8,
+              "y1": 145.2
+            }
+          },
+          {
+            "value": "20mg/ml",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 242.4,
+              "y0": 370.0,
+              "x1": 278.0,
+              "y1": 382.4
+            }
+          }
+        ],
+        "Manufacturer Name": [
+          {
+            "value": "Pod Salt Ltd.",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 121.56,
+              "y0": 170.89,
+              "x1": 160.89,
+              "y1": 174.44
+            }
+          }
+        ],
+        "Manufacturer Address": [
+          {
+            "value": "15-19 Sedgwick Street,\nPreston, PR1 1TP, UK.\nTel: +44 (0) 1772 888 778\nWebsite: www.podsalt.com",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 121.33,
+              "y0": 175.33,
+              "x1": 163.56,
+              "y1": 190.89
+            }
+          }
+        ],
+        "Ingredients": [
+          {
+            "value": "Ingredients: Vegetable Glycerine \n(50%), Propylene Glycol (50%), \nBlueberry Flavouring, Lemonade \nFlavouring, Artiﬁcial Sweetener, \n36mg/ml Nicotine Salt (2% \nNicotine). Contains: Citral, \nFuraneol. May produce an allergic",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 96.44,
+              "y0": 194.44,
+              "x1": 164.67,
+              "y1": 226.89
+            }
+          }
+        ],
+        "Danger Text": [
+          {
+            "value": "reaction.\nDanger: Toxic if swallowed. \nFatal in contact with skin. \nHarmful if inhaled. Harmful to \naquatic life with long lasting \neﬀects. Keep out of reach of \nchildren. Do not get in eyes, on skin, \nor on clothing. Use only outdoors or \nin a well-ventilated area. Wear \nprotective gloves. IF SWALLOWED: \nImmediately call a doctor. Dispose \nof contents/container to hazardous \nor special waste collection point, in \naccordance with local, regional, \nnational and/or international \nregulation",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 96.89,
+              "y0": 229.33,
+              "x1": 163.78,
+              "y1": 306.0
+            }
+          }
+        ],
+        "Danger Images": [
+          {
+            "value": "1 image(s) found",
+            "has_images": true,
+            "image_count": 1,
+            "type": "image",
+            "coordinates": {
+              "x0": 95.78,
+              "y0": 312.89,
+              "x1": 164.44,
+              "y1": 382.22
+            }
+          }
+        ],
+        "UFI": [
+          {
+            "value": "UFI: 2P6F-437Y-83GY-PAJR",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 98.44,
+              "y0": 386.22,
+              "x1": 155.33,
+              "y1": 391.33
+            }
+          }
+        ],
+        "ECID": [
+          {
+            "value": "ECID: 00062-23-02255",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 98.0,
+              "y0": 391.56,
+              "x1": 156.44,
+              "y1": 397.33
+            }
+          }
+        ],
+        "Warning Text1": [
+          {
+            "value": "This \nproduct \ncontains \nnicotine \nwhich is a \nhighly \naddictive \nsubstance.",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 97.78,
+              "y0": 402.44,
+              "x1": 161.56,
+              "y1": 511.78
+            }
+          }
+        ],
+        "Warning Text2": [
+          {
+            "value": "This \nproduct \ncontains \nnicotine \nwhich is a \nhighly \naddictive \nsubstance.",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 241.56,
+              "y0": 402.44,
+              "x1": 308.44,
+              "y1": 512.22
+            }
+          }
+        ],
+        "Volume": [
+          {
+            "value": "10ml",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 280.36,
+              "y0": 369.09,
+              "x1": 298.91,
+              "y1": 381.82
+            }
+          },
+          {
+            "value": "10ml",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 172.8,
+              "y0": 457.6,
+              "x1": 234.4,
+              "y1": 474.0
+            }
+          }
+        ],
+        "Extra Text": [
+          {
+            "value": "NEXUS\nNEXUS\nNEXUS",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "ocr",
+            "coordinates": {
+              "x0": 315.2,
+              "y0": 456.0,
+              "x1": 378.0,
+              "y1": 513.6
+            }
+          },
+          {
+            "value": "ROD,",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "ocr",
+            "coordinates": {
+              "x0": 317.2,
+              "y0": 163.6,
+              "x1": 375.2,
+              "y1": 230.0
+            }
+          },
+          {
+            "value": "POD\n=",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "ocr",
+            "coordinates": {
+              "x0": 245.6,
+              "y0": 164.8,
+              "x1": 304.4,
+              "y1": 218.4
+            }
+          }
+        ],
+        "Barcode Number": [
+          {
+            "value": "[[[[ 13.803299  45.014523]\n  [ 13.796692   9.014521]\n  [172.1967     8.985477]\n  [172.20331   44.98548 ]]]] 5056598192165",
+            "confidence": "scanned",
+            "type": "barcode_qr",
+            "method": "pyzbar",
+            "codes": [
+              "[[[[ 13.803299  45.014523]\n  [ 13.796692   9.014521]\n  [172.1967     8.985477]\n  [172.20331   44.98548 ]]]] 5056598192165"
+            ],
+            "coordinates": {
+              "x0": 100.33,
+              "y0": 524.67,
+              "x1": 156.67,
+              "y1": 548.0
+            }
+          }
+        ],
+        "QR Code": [
+          {
+            "value": "No code found",
+            "confidence": "empty",
+            "type": "barcode_qr",
+            "method": "pyzbar",
+            "codes": [],
+            "coordinates": {
+              "x0": 319.0,
+              "y0": 395.33,
+              "x1": 372.33,
+              "y1": 444.0
+            }
+          }
+        ]
+      }
+    },
+    {
+      "page_number": 5,
+      "page_dimensions": {
+        "width": 434.5039978027344,
+        "height": 675.448974609375
+      },
+      "fields": {
+        "Product Name": [
+          {
+            "value": "FIZZY\nWATERMELON\nGUMMY",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 245.6,
+              "y0": 118.0,
+              "x1": 304.8,
+              "y1": 134.0
+            }
+          },
+          {
+            "value": "FIZZY\nWATERMELON\nGUMMY",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 241.6,
+              "y0": 336.8,
+              "x1": 302.0,
+              "y1": 361.2
+            }
+          }
+        ],
+        "Batch Number": [
+          {
+            "value": "28880-4",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 326.0,
+              "y0": 121.6,
+              "x1": 368.0,
+              "y1": 130.4
+            }
+          }
+        ],
+        "mg/ml": [
+          {
+            "value": "20mg/ml",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 247.6,
+              "y0": 136.4,
+              "x1": 302.8,
+              "y1": 145.2
+            }
+          },
+          {
+            "value": "20mg/ml",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 242.4,
+              "y0": 370.0,
+              "x1": 278.0,
+              "y1": 382.4
+            }
+          }
+        ],
+        "Manufacturer Name": [
+          {
+            "value": "Pod Salt Ltd.",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 121.56,
+              "y0": 170.89,
+              "x1": 160.89,
+              "y1": 174.44
+            }
+          }
+        ],
+        "Manufacturer Address": [
+          {
+            "value": "15-19 Sedgwick Street,\nPreston, PR1 1TP, UK.\nTel: +44 (0) 1772 888 778\nWebsite: www.podsalt.com",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 121.33,
+              "y0": 175.33,
+              "x1": 163.56,
+              "y1": 190.89
+            }
+          }
+        ],
+        "Ingredients": [
+          {
+            "value": "Ingredients: Vegetable Glycerine \n(50%), Propylene Glycol (50%), \nWatermelon Gummy Flavouring, \nArtiﬁcial Sweetener, 36mg/ml \nNicotine Salt (2% Nicotine). \nContains: Melonal, Citral, \nFuraneol. May produce an allergic",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 96.44,
+              "y0": 194.44,
+              "x1": 164.67,
+              "y1": 226.89
+            }
+          }
+        ],
+        "Danger Text": [
+          {
+            "value": "Danger: Toxic if swallowed. \nFatal in contact with skin. \nHarmful if inhaled. Harmful to \naquatic life with long lasting \neﬀects. Keep out of reach of \nchildren. Do not get in eyes, on \nskin, or on clothing. Use only \noutdoors or in a well-ventilated \narea. Wear protective gloves. IF \nSWALLOWED: Immediately call a \ndoctor. Dispose of \ncontents/container to hazardous \nor special waste collection point, \nin accordance with local, \nregional, national and/or \ni t\nti\nl\nl ti\nreaction.",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 96.89,
+              "y0": 229.33,
+              "x1": 163.78,
+              "y1": 306.0
+            }
+          }
+        ],
+        "Danger Images": [
+          {
+            "value": "1 image(s) found",
+            "has_images": true,
+            "image_count": 1,
+            "type": "image",
+            "coordinates": {
+              "x0": 95.78,
+              "y0": 312.89,
+              "x1": 164.44,
+              "y1": 382.22
+            }
+          }
+        ],
+        "UFI": [
+          {
+            "value": "UFI: NMDG-NEYF-K7EM-HMS3",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 98.44,
+              "y0": 386.22,
+              "x1": 155.33,
+              "y1": 391.33
+            }
+          }
+        ],
+        "ECID": [
+          {
+            "value": "ECID: 00062-24-02496",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 98.0,
+              "y0": 391.56,
+              "x1": 156.44,
+              "y1": 397.33
+            }
+          }
+        ],
+        "Warning Text1": [
+          {
+            "value": "This \nproduct \ncontains \nnicotine \nwhich is a \nhighly \naddictive \nsubstance.",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 97.78,
+              "y0": 402.44,
+              "x1": 161.56,
+              "y1": 511.78
+            }
+          }
+        ],
+        "Warning Text2": [
+          {
+            "value": "This \nproduct \ncontains \nnicotine \nwhich is a \nhighly \naddictive \nsubstance.",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 241.56,
+              "y0": 402.44,
+              "x1": 308.44,
+              "y1": 512.22
+            }
+          }
+        ],
+        "Volume": [
+          {
+            "value": "10ml",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 280.36,
+              "y0": 369.09,
+              "x1": 298.91,
+              "y1": 381.82
+            }
+          },
+          {
+            "value": "10ml",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 172.8,
+              "y0": 457.6,
+              "x1": 234.4,
+              "y1": 474.0
+            }
+          }
+        ],
+        "Extra Text": [
+          {
+            "value": "NEXUS",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "ocr",
+            "coordinates": {
+              "x0": 315.2,
+              "y0": 456.0,
+              "x1": 378.0,
+              "y1": 513.6
+            }
+          },
+          {
+            "value": "POD",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "ocr",
+            "coordinates": {
+              "x0": 317.2,
+              "y0": 163.6,
+              "x1": 375.2,
+              "y1": 230.0
+            }
+          },
+          {
+            "value": "(PXYOYDY",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "ocr",
+            "coordinates": {
+              "x0": 245.6,
+              "y0": 164.8,
+              "x1": 304.4,
+              "y1": 218.4
+            }
+          }
+        ],
+        "Barcode Number": [
+          {
+            "value": "[[[[ 13.798843  44.994923]\n  [ 13.801147   8.994925]\n  [172.20116    9.005077]\n  [172.19885   45.005074]]]] 5056598192288",
+            "confidence": "scanned",
+            "type": "barcode_qr",
+            "method": "pyzbar",
+            "codes": [
+              "[[[[ 13.798843  44.994923]\n  [ 13.801147   8.994925]\n  [172.20116    9.005077]\n  [172.19885   45.005074]]]] 5056598192288"
+            ],
+            "coordinates": {
+              "x0": 100.33,
+              "y0": 524.67,
+              "x1": 156.67,
+              "y1": 548.0
+            }
+          }
+        ],
+        "QR Code": [
+          {
+            "value": "No code found",
+            "confidence": "empty",
+            "type": "barcode_qr",
+            "method": "pyzbar",
+            "codes": [],
+            "coordinates": {
+              "x0": 319.0,
+              "y0": 395.33,
+              "x1": 372.33,
+              "y1": 444.0
+            }
+          }
+        ]
+      }
+    },
+    {
+      "page_number": 6,
+      "page_dimensions": {
+        "width": 434.5039978027344,
+        "height": 675.448974609375
+      },
+      "fields": {
+        "Product Name": [
+          {
+            "value": "CHERRY\nLEMONADE",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 245.6,
+              "y0": 118.0,
+              "x1": 304.8,
+              "y1": 134.0
+            }
+          },
+          {
+            "value": "CHERRY\nLEMONADE",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 241.6,
+              "y0": 336.8,
+              "x1": 302.0,
+              "y1": 361.2
+            }
+          }
+        ],
+        "Batch Number": [
+          {
+            "value": "28865-4",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 326.0,
+              "y0": 121.6,
+              "x1": 368.0,
+              "y1": 130.4
+            }
+          }
+        ],
+        "mg/ml": [
+          {
+            "value": "20mg/ml",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 247.6,
+              "y0": 136.4,
+              "x1": 302.8,
+              "y1": 145.2
+            }
+          },
+          {
+            "value": "20mg/ml",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 242.4,
+              "y0": 370.0,
+              "x1": 278.0,
+              "y1": 382.4
+            }
+          }
+        ],
+        "Manufacturer Name": [
+          {
+            "value": "Pod Salt Ltd.",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 121.56,
+              "y0": 170.89,
+              "x1": 160.89,
+              "y1": 174.44
+            }
+          }
+        ],
+        "Manufacturer Address": [
+          {
+            "value": "15-19 Sedgwick Street,\nPreston, PR1 1TP, UK.\nTel: +44 (0) 1772 888 778\nWebsite: www.podsalt.com",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 121.33,
+              "y0": 175.33,
+              "x1": 163.56,
+              "y1": 190.89
+            }
+          }
+        ],
+        "Ingredients": [
+          {
+            "value": "Ingredients: Vegetable Glycerine \n(50%), Propylene Glycol (50%), \nCherry Flavouring, Lemonade \nFlavouring, Artiﬁcial Sweetener, \n36mg/ml Nicotine Salt (2% \nNicotine). Contains:  Benzyl Alcohol, \nCitral, Lemon Extract, Lime Extract.",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 96.44,
+              "y0": 194.44,
+              "x1": 164.67,
+              "y1": 226.89
+            }
+          }
+        ],
+        "Danger Text": [
+          {
+            "value": "Danger: Toxic if swallowed. \nFatal in contact with skin. \nHarmful if inhaled. Harmful to \naquatic life with long lasting \neﬀects. Keep out of reach of \nchildren. Do not get in eyes, on skin, \nor on clothing. Use only outdoors \nor in a well-ventilated area. Wear \nprotective gloves. IF SWALLOWED: \nImmediately call a doctor. Dispose \nof contents/container to \nhazardous or special waste \ncollection point, in accordance with \nlocal, regional, national and/or \ninternational regulation\nMay produce an allergic reaction.",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 96.89,
+              "y0": 229.33,
+              "x1": 163.78,
+              "y1": 306.0
+            }
+          }
+        ],
+        "Danger Images": [
+          {
+            "value": "1 image(s) found",
+            "has_images": true,
+            "image_count": 1,
+            "type": "image",
+            "coordinates": {
+              "x0": 95.78,
+              "y0": 312.89,
+              "x1": 164.44,
+              "y1": 382.22
+            }
+          }
+        ],
+        "UFI": [
+          {
+            "value": "UFI: 88Q0-1DUS-PTKR-PC5T",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 98.44,
+              "y0": 386.22,
+              "x1": 155.33,
+              "y1": 391.33
+            }
+          }
+        ],
+        "ECID": [
+          {
+            "value": "ECID: 00062-23-02259",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 98.0,
+              "y0": 391.56,
+              "x1": 156.44,
+              "y1": 397.33
+            }
+          }
+        ],
+        "Warning Text1": [
+          {
+            "value": "This \nproduct \ncontains \nnicotine \nwhich is a \nhighly \naddictive \nsubstance.",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 97.78,
+              "y0": 402.44,
+              "x1": 161.56,
+              "y1": 511.78
+            }
+          }
+        ],
+        "Warning Text2": [
+          {
+            "value": "This \nproduct \ncontains \nnicotine \nwhich is a \nhighly \naddictive \nsubstance.",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 241.56,
+              "y0": 402.44,
+              "x1": 308.44,
+              "y1": 512.22
+            }
+          }
+        ],
+        "Volume": [
+          {
+            "value": "10ml",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 280.36,
+              "y0": 369.09,
+              "x1": 298.91,
+              "y1": 381.82
+            }
+          },
+          {
+            "value": "10ml",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 172.8,
+              "y0": 457.6,
+              "x1": 234.4,
+              "y1": 474.0
+            }
+          }
+        ],
+        "Extra Text": [
+          {
+            "value": "NEXUS\nNEXUS\nNEXUS",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "ocr",
+            "coordinates": {
+              "x0": 315.2,
+              "y0": 456.0,
+              "x1": 378.0,
+              "y1": 513.6
+            }
+          },
+          {
+            "value": "ROD",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "ocr",
+            "coordinates": {
+              "x0": 317.2,
+              "y0": 163.6,
+              "x1": 375.2,
+              "y1": 230.0
+            }
+          },
+          {
+            "value": "POD\n=",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "ocr",
+            "coordinates": {
+              "x0": 245.6,
+              "y0": 164.8,
+              "x1": 304.4,
+              "y1": 218.4
+            }
+          }
+        ],
+        "Barcode Number": [
+          {
+            "value": "[[[[ 13.8027115  45.011963 ]\n  [ 13.797279    9.011962 ]\n  [172.1973      8.988037 ]\n  [172.20273    44.988037 ]]]] 5056598192257",
+            "confidence": "scanned",
+            "type": "barcode_qr",
+            "method": "pyzbar",
+            "codes": [
+              "[[[[ 13.8027115  45.011963 ]\n  [ 13.797279    9.011962 ]\n  [172.1973      8.988037 ]\n  [172.20273    44.988037 ]]]] 5056598192257"
+            ],
+            "coordinates": {
+              "x0": 100.33,
+              "y0": 524.67,
+              "x1": 156.67,
+              "y1": 548.0
+            }
+          }
+        ],
+        "QR Code": [
+          {
+            "value": "No code found",
+            "confidence": "empty",
+            "type": "barcode_qr",
+            "method": "pyzbar",
+            "codes": [],
+            "coordinates": {
+              "x0": 319.0,
+              "y0": 395.33,
+              "x1": 372.33,
+              "y1": 444.0
+            }
+          }
+        ]
+      }
+    },
+    {
+      "page_number": 7,
+      "page_dimensions": {
+        "width": 434.5039978027344,
+        "height": 675.448974609375
+      },
+      "fields": {
+        "Product Name": [
+          {
+            "value": "RASPBERRY\nGUMMY",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 245.6,
+              "y0": 118.0,
+              "x1": 304.8,
+              "y1": 134.0
+            }
+          },
+          {
+            "value": "RASPBERRY\nGUMMY",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 241.6,
+              "y0": 336.8,
+              "x1": 302.0,
+              "y1": 361.2
+            }
+          }
+        ],
+        "Batch Number": [
+          {
+            "value": "28871-4",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 326.0,
+              "y0": 121.6,
+              "x1": 368.0,
+              "y1": 130.4
+            }
+          }
+        ],
+        "mg/ml": [
+          {
+            "value": "20mg/ml",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 247.6,
+              "y0": 136.4,
+              "x1": 302.8,
+              "y1": 145.2
+            }
+          },
+          {
+            "value": "20mg/ml",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 242.4,
+              "y0": 370.0,
+              "x1": 278.0,
+              "y1": 382.4
+            }
+          }
+        ],
+        "Manufacturer Name": [
+          {
+            "value": "Pod Salt Ltd.",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 121.56,
+              "y0": 170.89,
+              "x1": 160.89,
+              "y1": 174.44
+            }
+          }
+        ],
+        "Manufacturer Address": [
+          {
+            "value": "15-19 Sedgwick Street,\nPreston, PR1 1TP, UK.\nTel: +44 (0) 1772 888 778\nWebsite: www.podsalt.com",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 121.33,
+              "y0": 175.33,
+              "x1": 163.56,
+              "y1": 190.89
+            }
+          }
+        ],
+        "Ingredients": [
+          {
+            "value": "Ingredients: Vegetable \nGlycerine (50%), Propylene \nGlycol (50%), Raspberry Gummy \nFlavouring, Artiﬁcial Sweetener, \n36mg/ml Nicotine Salt (2% \nNicotine).",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 96.44,
+              "y0": 194.44,
+              "x1": 164.67,
+              "y1": 226.89
+            }
+          }
+        ],
+        "Danger Text": [
+          {
+            "value": "Danger: Toxic if swallowed. \nFatal in contact with skin. \nMay cause an allergic skin \nreaction. Harmful if inhaled. \nHarmful to aquatic life with \nlong lasting eﬀects. Keep out of \nreach of children. Do not get in \neyes, on skin, or on clothing. Use \nonly outdoors or in a \nwell-ventilated area. Wear \nprotective gloves. IF \nSWALLOWED: Immediately call a \ndoctor. Dispose of \ncontents/container to hazardous \nor special waste collection point, \nin accordance with local, \nregional, national and/or",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 96.89,
+              "y0": 229.33,
+              "x1": 163.78,
+              "y1": 306.0
+            }
+          }
+        ],
+        "Danger Images": [
+          {
+            "value": "1 image(s) found",
+            "has_images": true,
+            "image_count": 1,
+            "type": "image",
+            "coordinates": {
+              "x0": 95.78,
+              "y0": 312.89,
+              "x1": 164.44,
+              "y1": 382.22
+            }
+          }
+        ],
+        "UFI": [
+          {
+            "value": "UFI: JE9T-S42K-0H9G-KTM5",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 98.44,
+              "y0": 386.22,
+              "x1": 155.33,
+              "y1": 391.33
+            }
+          }
+        ],
+        "ECID": [
+          {
+            "value": "ECID: 00062-23-02256",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 98.0,
+              "y0": 391.56,
+              "x1": 156.44,
+              "y1": 397.33
+            }
+          }
+        ],
+        "Warning Text1": [
+          {
+            "value": "This \nproduct \ncontains \nnicotine \nwhich is a \nhighly \naddictive \nsubstance.",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 97.78,
+              "y0": 402.44,
+              "x1": 161.56,
+              "y1": 511.78
+            }
+          }
+        ],
+        "Warning Text2": [
+          {
+            "value": "This \nproduct \ncontains \nnicotine \nwhich is a \nhighly \naddictive \nsubstance.",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 241.56,
+              "y0": 402.44,
+              "x1": 308.44,
+              "y1": 512.22
+            }
+          }
+        ],
+        "Volume": [
+          {
+            "value": "10ml",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 280.36,
+              "y0": 369.09,
+              "x1": 298.91,
+              "y1": 381.82
+            }
+          },
+          {
+            "value": "10ml",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 172.8,
+              "y0": 457.6,
+              "x1": 234.4,
+              "y1": 474.0
+            }
+          }
+        ],
+        "Extra Text": [
+          {
+            "value": "INEXUS)",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "ocr",
+            "coordinates": {
+              "x0": 315.2,
+              "y0": 456.0,
+              "x1": 378.0,
+              "y1": 513.6
+            }
+          },
+          {
+            "value": "POD",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "ocr",
+            "coordinates": {
+              "x0": 317.2,
+              "y0": 163.6,
+              "x1": 375.2,
+              "y1": 230.0
+            }
+          },
+          {
+            "value": "PX DY",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "ocr",
+            "coordinates": {
+              "x0": 245.6,
+              "y0": 164.8,
+              "x1": 304.4,
+              "y1": 218.4
+            }
+          }
+        ],
+        "Barcode Number": [
+          {
+            "value": "[[[[ 13.803299  45.014523]\n  [ 13.796692   9.014521]\n  [172.1967     8.985477]\n  [172.20331   44.98548 ]]]] 5056598192400",
+            "confidence": "scanned",
+            "type": "barcode_qr",
+            "method": "pyzbar",
+            "codes": [
+              "[[[[ 13.803299  45.014523]\n  [ 13.796692   9.014521]\n  [172.1967     8.985477]\n  [172.20331   44.98548 ]]]] 5056598192400"
+            ],
+            "coordinates": {
+              "x0": 100.33,
+              "y0": 524.67,
+              "x1": 156.67,
+              "y1": 548.0
+            }
+          }
+        ],
+        "QR Code": [
+          {
+            "value": "No code found",
+            "confidence": "empty",
+            "type": "barcode_qr",
+            "method": "pyzbar",
+            "codes": [],
+            "coordinates": {
+              "x0": 319.0,
+              "y0": 395.33,
+              "x1": 372.33,
+              "y1": 444.0
+            }
+          }
+        ]
+      }
+    },
+    {
+      "page_number": 8,
+      "page_dimensions": {
+        "width": 434.5039978027344,
+        "height": 675.448974609375
+      },
+      "fields": {
+        "Product Name": [
+          {
+            "value": "STRAWBERRY\nKIWI ICE",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 245.6,
+              "y0": 118.0,
+              "x1": 304.8,
+              "y1": 134.0
+            }
+          },
+          {
+            "value": "STRAWBERRY\nKIWI\nICE",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 241.6,
+              "y0": 336.8,
+              "x1": 302.0,
+              "y1": 361.2
+            }
+          }
+        ],
+        "Batch Number": [
+          {
+            "value": "28874-4",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 326.0,
+              "y0": 121.6,
+              "x1": 368.0,
+              "y1": 130.4
+            }
+          }
+        ],
+        "mg/ml": [
+          {
+            "value": "20mg/ml",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 247.6,
+              "y0": 136.4,
+              "x1": 302.8,
+              "y1": 145.2
+            }
+          },
+          {
+            "value": "20mg/ml",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 242.4,
+              "y0": 370.0,
+              "x1": 278.0,
+              "y1": 382.4
+            }
+          }
+        ],
+        "Manufacturer Name": [
+          {
+            "value": "Pod Salt Ltd.",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 121.56,
+              "y0": 170.89,
+              "x1": 160.89,
+              "y1": 174.44
+            }
+          }
+        ],
+        "Manufacturer Address": [
+          {
+            "value": "15-19 Sedgwick Street,\nPreston, PR1 1TP, UK.\nTel: +44 (0) 1772 888 778\nWebsite: www.podsalt.com",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 121.33,
+              "y0": 175.33,
+              "x1": 163.56,
+              "y1": 190.89
+            }
+          }
+        ],
+        "Ingredients": [
+          {
+            "value": "Ingredients: Vegetable Glycerine \n(50%), Propylene Glycol (50%), \nStrawberry Flavouring, Kiwi \nFlavouring, Artiﬁcial Sweetener, \n36mg/ml Nicotine Salt (2% \nNicotine). Contains: Furaneol. May \nproduce an allergic reaction.",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 96.44,
+              "y0": 194.44,
+              "x1": 164.67,
+              "y1": 226.89
+            }
+          }
+        ],
+        "Danger Text": [
+          {
+            "value": "Danger: Toxic if swallowed. \nFatal in contact with skin. \nHarmful if inhaled. Harmful to \naquatic life with long lasting \neﬀects. Keep out of reach of \nchildren. Do not get in eyes, on \nskin, or on clothing. Use only \noutdoors or in a well-ventilated \narea. Wear protective gloves. IF \nSWALLOWED: Immediately call a \ndoctor. Dispose of \ncontents/container to hazardous \nor special waste collection point, \nin accordance with local, \nregional, national and/or \ninternational regulation",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 96.89,
+              "y0": 229.33,
+              "x1": 163.78,
+              "y1": 306.0
+            }
+          }
+        ],
+        "Danger Images": [
+          {
+            "value": "1 image(s) found",
+            "has_images": true,
+            "image_count": 1,
+            "type": "image",
+            "coordinates": {
+              "x0": 95.78,
+              "y0": 312.89,
+              "x1": 164.44,
+              "y1": 382.22
+            }
+          }
+        ],
+        "UFI": [
+          {
+            "value": "UFI: TYN7-RYTW-PEAN-067Q",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 98.44,
+              "y0": 386.22,
+              "x1": 155.33,
+              "y1": 391.33
+            }
+          }
+        ],
+        "ECID": [
+          {
+            "value": "ECID: 00062-23-02277",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 98.0,
+              "y0": 391.56,
+              "x1": 156.44,
+              "y1": 397.33
+            }
+          }
+        ],
+        "Warning Text1": [
+          {
+            "value": "This \nproduct \ncontains \nnicotine \nwhich is a \nhighly \naddictive \nsubstance.",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 97.78,
+              "y0": 402.44,
+              "x1": 161.56,
+              "y1": 511.78
+            }
+          }
+        ],
+        "Warning Text2": [
+          {
+            "value": "This \nproduct \ncontains \nnicotine \nwhich is a \nhighly \naddictive \nsubstance.",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 241.56,
+              "y0": 402.44,
+              "x1": 308.44,
+              "y1": 512.22
+            }
+          }
+        ],
+        "Volume": [
+          {
+            "value": "10ml",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 280.36,
+              "y0": 369.09,
+              "x1": 298.91,
+              "y1": 381.82
+            }
+          },
+          {
+            "value": "10ml",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 172.8,
+              "y0": 457.6,
+              "x1": 234.4,
+              "y1": 474.0
+            }
+          }
+        ],
+        "Extra Text": [
+          {
+            "value": "INEXUS",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "ocr",
+            "coordinates": {
+              "x0": 315.2,
+              "y0": 456.0,
+              "x1": 378.0,
+              "y1": 513.6
+            }
+          },
+          {
+            "value": "POD",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "ocr",
+            "coordinates": {
+              "x0": 317.2,
+              "y0": 163.6,
+              "x1": 375.2,
+              "y1": 230.0
+            }
+          },
+          {
+            "value": "ROD",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "ocr",
+            "coordinates": {
+              "x0": 245.6,
+              "y0": 164.8,
+              "x1": 304.4,
+              "y1": 218.4
+            }
+          }
+        ],
+        "Barcode Number": [
+          {
+            "value": "[[[[ 13.803299  45.014523]\n  [ 13.796692   9.014521]\n  [172.1967     8.985477]\n  [172.20331   44.98548 ]]]] 5056598192462",
+            "confidence": "scanned",
+            "type": "barcode_qr",
+            "method": "pyzbar",
+            "codes": [
+              "[[[[ 13.803299  45.014523]\n  [ 13.796692   9.014521]\n  [172.1967     8.985477]\n  [172.20331   44.98548 ]]]] 5056598192462"
+            ],
+            "coordinates": {
+              "x0": 100.33,
+              "y0": 524.67,
+              "x1": 156.67,
+              "y1": 548.0
+            }
+          }
+        ],
+        "QR Code": [
+          {
+            "value": "No code found",
+            "confidence": "empty",
+            "type": "barcode_qr",
+            "method": "pyzbar",
+            "codes": [],
+            "coordinates": {
+              "x0": 319.0,
+              "y0": 395.33,
+              "x1": 372.33,
+              "y1": 444.0
+            }
+          }
+        ]
+      }
+    },
+    {
+      "page_number": 9,
+      "page_dimensions": {
+        "width": 434.5039978027344,
+        "height": 675.448974609375
+      },
+      "fields": {
+        "Product Name": [
+          {
+            "value": "MANGO\nPEACH ICE",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 245.6,
+              "y0": 118.0,
+              "x1": 304.8,
+              "y1": 134.0
+            }
+          },
+          {
+            "value": "MANGO\nPEACH\nICE",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 241.6,
+              "y0": 336.8,
+              "x1": 302.0,
+              "y1": 361.2
+            }
+          }
+        ],
+        "Batch Number": [
+          {
+            "value": "28853-4",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 326.0,
+              "y0": 121.6,
+              "x1": 368.0,
+              "y1": 130.4
+            }
+          }
+        ],
+        "mg/ml": [
+          {
+            "value": "20mg/ml",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 247.6,
+              "y0": 136.4,
+              "x1": 302.8,
+              "y1": 145.2
+            }
+          },
+          {
+            "value": "20mg/ml",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 242.4,
+              "y0": 370.0,
+              "x1": 278.0,
+              "y1": 382.4
+            }
+          }
+        ],
+        "Manufacturer Name": [
+          {
+            "value": "Pod Salt Ltd.",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 121.56,
+              "y0": 170.89,
+              "x1": 160.89,
+              "y1": 174.44
+            }
+          }
+        ],
+        "Manufacturer Address": [
+          {
+            "value": "15-19 Sedgwick Street,\nPreston, PR1 1TP, UK.\nTel: +44 (0) 1772 888 778\nWebsite: www.podsalt.com",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 121.33,
+              "y0": 175.33,
+              "x1": 163.56,
+              "y1": 190.89
+            }
+          }
+        ],
+        "Ingredients": [
+          {
+            "value": "Ingredients: Vegetable \nGlycerine (50%), Propylene \nGlycol (50%), Mango Flavouring, \nPeach Flavouring, Artiﬁcial \nSweetener, 36mg/ml Nicotine \nSalt (2% Nicotine).",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 96.44,
+              "y0": 194.44,
+              "x1": 164.67,
+              "y1": 226.89
+            }
+          }
+        ],
+        "Danger Text": [
+          {
+            "value": "Danger: Toxic if swallowed. \nFatal in contact with skin. \nMay cause an allergic skin \nreaction. Harmful if inhaled. \nHarmful to aquatic life with \nlong lasting eﬀects. Keep out of \nreach of children. Do not get in \neyes, on skin, or on clothing. Use \nonly outdoors or in a \nwell-ventilated area. Wear \nprotective gloves. IF \nSWALLOWED: Immediately call a \ndoctor. Dispose of \ncontents/container to hazardous \nor special waste collection point, \nin accordance with local, \nregional, national and/or",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 96.89,
+              "y0": 229.33,
+              "x1": 163.78,
+              "y1": 306.0
+            }
+          }
+        ],
+        "Danger Images": [
+          {
+            "value": "1 image(s) found",
+            "has_images": true,
+            "image_count": 1,
+            "type": "image",
+            "coordinates": {
+              "x0": 95.78,
+              "y0": 312.89,
+              "x1": 164.44,
+              "y1": 382.22
+            }
+          }
+        ],
+        "UFI": [
+          {
+            "value": "UFI: 9APN-1FWU-X7EK-1PG8",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 98.44,
+              "y0": 386.22,
+              "x1": 155.33,
+              "y1": 391.33
+            }
+          }
+        ],
+        "ECID": [
+          {
+            "value": "ECID: 00062-25-03674",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 98.0,
+              "y0": 391.56,
+              "x1": 156.44,
+              "y1": 397.33
+            }
+          }
+        ],
+        "Warning Text1": [
+          {
+            "value": "This \nproduct \ncontains \nnicotine \nwhich is a \nhighly \naddictive \nsubstance.",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 97.78,
+              "y0": 402.44,
+              "x1": 161.56,
+              "y1": 511.78
+            }
+          }
+        ],
+        "Warning Text2": [
+          {
+            "value": "This \nproduct \ncontains \nnicotine \nwhich is a \nhighly \naddictive \nsubstance.",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 241.56,
+              "y0": 402.44,
+              "x1": 308.44,
+              "y1": 512.22
+            }
+          }
+        ],
+        "Volume": [
+          {
+            "value": "10ml",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 280.36,
+              "y0": 369.09,
+              "x1": 298.91,
+              "y1": 381.82
+            }
+          },
+          {
+            "value": "10ml",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 172.8,
+              "y0": 457.6,
+              "x1": 234.4,
+              "y1": 474.0
+            }
+          }
+        ],
+        "Extra Text": [
+          {
+            "value": "",
+            "confidence": "empty",
+            "type": "text",
+            "method": "ocr",
+            "coordinates": {
+              "x0": 315.2,
+              "y0": 456.0,
+              "x1": 378.0,
+              "y1": 513.6
+            }
+          },
+          {
+            "value": "POD",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "ocr",
+            "coordinates": {
+              "x0": 317.2,
+              "y0": 163.6,
+              "x1": 375.2,
+              "y1": 230.0
+            }
+          },
+          {
+            "value": "[EX@D)",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "ocr",
+            "coordinates": {
+              "x0": 245.6,
+              "y0": 164.8,
+              "x1": 304.4,
+              "y1": 218.4
+            }
+          }
+        ],
+        "Barcode Number": [
+          {
+            "value": "[[[[ 13.803299  45.014523]\n  [ 13.796692   9.014521]\n  [172.1967     8.985477]\n  [172.20331   44.98548 ]]]] 5056598210029",
+            "confidence": "scanned",
+            "type": "barcode_qr",
+            "method": "pyzbar",
+            "codes": [
+              "[[[[ 13.803299  45.014523]\n  [ 13.796692   9.014521]\n  [172.1967     8.985477]\n  [172.20331   44.98548 ]]]] 5056598210029"
+            ],
+            "coordinates": {
+              "x0": 100.33,
+              "y0": 524.67,
+              "x1": 156.67,
+              "y1": 548.0
+            }
+          }
+        ],
+        "QR Code": [
+          {
+            "value": "No code found",
+            "confidence": "empty",
+            "type": "barcode_qr",
+            "method": "pyzbar",
+            "codes": [],
+            "coordinates": {
+              "x0": 319.0,
+              "y0": 395.33,
+              "x1": 372.33,
+              "y1": 444.0
+            }
+          }
+        ]
+      }
+    },
+    {
+      "page_number": 10,
+      "page_dimensions": {
+        "width": 434.5039978027344,
+        "height": 675.448974609375
+      },
+      "fields": {
+        "Product Name": [
+          {
+            "value": "RASPBERRY\nAPPLE",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 245.6,
+              "y0": 118.0,
+              "x1": 304.8,
+              "y1": 134.0
+            }
+          },
+          {
+            "value": "RASPBERRY\nAPPLE",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 241.6,
+              "y0": 336.8,
+              "x1": 302.0,
+              "y1": 361.2
+            }
+          }
+        ],
+        "Batch Number": [
+          {
+            "value": "28856-4",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 326.0,
+              "y0": 121.6,
+              "x1": 368.0,
+              "y1": 130.4
+            }
+          }
+        ],
+        "mg/ml": [
+          {
+            "value": "20mg/ml",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 247.6,
+              "y0": 136.4,
+              "x1": 302.8,
+              "y1": 145.2
+            }
+          },
+          {
+            "value": "20mg/ml",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 242.4,
+              "y0": 370.0,
+              "x1": 278.0,
+              "y1": 382.4
+            }
+          }
+        ],
+        "Manufacturer Name": [
+          {
+            "value": "Pod Salt Ltd.",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 121.56,
+              "y0": 170.89,
+              "x1": 160.89,
+              "y1": 174.44
+            }
+          }
+        ],
+        "Manufacturer Address": [
+          {
+            "value": "15-19 Sedgwick Street,\nPreston, PR1 1TP, UK.\nTel: +44 (0) 1772 888 778\nWebsite: www.podsalt.com",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 121.33,
+              "y0": 175.33,
+              "x1": 163.56,
+              "y1": 190.89
+            }
+          }
+        ],
+        "Ingredients": [
+          {
+            "value": "Ingredients: Vegetable \nGlycerine (50%), Propylene \nGlycol (50%), Raspberry \nFlavouring, Apple Flavouring,  \nArtiﬁcial Sweetener, 36mg/ml \nNicotine Salt (2% Nicotine).",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 96.44,
+              "y0": 194.44,
+              "x1": 164.67,
+              "y1": 226.89
+            }
+          }
+        ],
+        "Danger Text": [
+          {
+            "value": "Danger: Toxic if swallowed. \nFatal in contact with skin. \nMay cause an allergic skin \nreaction. Harmful if inhaled. \nHarmful to aquatic life with \nlong lasting eﬀects. Keep out of \nreach of children. Do not get in \neyes, on skin, or on clothing. Use \nonly outdoors or in a \nwell-ventilated area. Wear \nprotective gloves. IF \nSWALLOWED: Immediately call a \ndoctor. Dispose of \ncontents/container to hazardous \nor special waste collection point, \nin accordance with local, \nregional national and/or",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 96.89,
+              "y0": 229.33,
+              "x1": 163.78,
+              "y1": 306.0
+            }
+          }
+        ],
+        "Danger Images": [
+          {
+            "value": "1 image(s) found",
+            "has_images": true,
+            "image_count": 1,
+            "type": "image",
+            "coordinates": {
+              "x0": 95.78,
+              "y0": 312.89,
+              "x1": 164.44,
+              "y1": 382.22
+            }
+          }
+        ],
+        "UFI": [
+          {
+            "value": "UFI: YX2T-KWT1-90HQ-RFR7",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 98.44,
+              "y0": 386.22,
+              "x1": 155.33,
+              "y1": 391.33
+            }
+          }
+        ],
+        "ECID": [
+          {
+            "value": "ECID: 00062-25-03677",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 98.0,
+              "y0": 391.56,
+              "x1": 156.44,
+              "y1": 397.33
+            }
+          }
+        ],
+        "Warning Text1": [
+          {
+            "value": "This \nproduct \ncontains \nnicotine \nwhich is a \nhighly \naddictive \nsubstance.",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 97.78,
+              "y0": 402.44,
+              "x1": 161.56,
+              "y1": 511.78
+            }
+          }
+        ],
+        "Warning Text2": [
+          {
+            "value": "This \nproduct \ncontains \nnicotine \nwhich is a \nhighly \naddictive \nsubstance.",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 241.56,
+              "y0": 402.44,
+              "x1": 308.44,
+              "y1": 512.22
+            }
+          }
+        ],
+        "Volume": [
+          {
+            "value": "10ml",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 280.36,
+              "y0": 369.09,
+              "x1": 298.91,
+              "y1": 381.82
+            }
+          },
+          {
+            "value": "10ml",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "digital",
+            "coordinates": {
+              "x0": 172.8,
+              "y0": 457.6,
+              "x1": 234.4,
+              "y1": 474.0
+            }
+          }
+        ],
+        "Extra Text": [
+          {
+            "value": "",
+            "confidence": "empty",
+            "type": "text",
+            "method": "ocr",
+            "coordinates": {
+              "x0": 315.2,
+              "y0": 456.0,
+              "x1": 378.0,
+              "y1": 513.6
+            }
+          },
+          {
+            "value": "ROD",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "ocr",
+            "coordinates": {
+              "x0": 317.2,
+              "y0": 163.6,
+              "x1": 375.2,
+              "y1": 230.0
+            }
+          },
+          {
+            "value": "PX)",
+            "confidence": "extracted",
+            "type": "text",
+            "method": "ocr",
+            "coordinates": {
+              "x0": 245.6,
+              "y0": 164.8,
+              "x1": 304.4,
+              "y1": 218.4
+            }
+          }
+        ],
+        "Barcode Number": [
+          {
+            "value": "[[[[ 13.803299  45.014523]\n  [ 13.796692   9.014521]\n  [172.1967     8.985477]\n  [172.20331   44.98548 ]]]] 5056598210050",
+            "confidence": "scanned",
+            "type": "barcode_qr",
+            "method": "pyzbar",
+            "codes": [
+              "[[[[ 13.803299  45.014523]\n  [ 13.796692   9.014521]\n  [172.1967     8.985477]\n  [172.20331   44.98548 ]]]] 5056598210050"
+            ],
+            "coordinates": {
+              "x0": 100.33,
+              "y0": 524.67,
+              "x1": 156.67,
+              "y1": 548.0
+            }
+          }
+        ],
+        "QR Code": [
+          {
+            "value": "No code found",
+            "confidence": "empty",
+            "type": "barcode_qr",
+            "method": "pyzbar",
+            "codes": [],
+            "coordinates": {
+              "x0": 319.0,
+              "y0": 395.33,
+              "x1": 372.33,
+              "y1": 444.0
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
